@@ -61,3 +61,40 @@ nav .main-navigation .dropdown-menu {
   transform: translateY(calc(var(--height) / 2));
   transition: transform 200ms ease-in 0s;
 }
+
+
+/* .nav-icons .icon-search-dark  */ 
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-sections ul li {
+  display: inline-block;
+} 
+
+.nav-sections ul li a {
+  font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
+    display: block;
+    height: 48px;
+    letter-spacing: .04em;
+    line-height: 1;
+    padding: 18px 10px 0;
+}
+
+.nav-icons {
+  display: block;
+  height: 48px;
+  width: 48px;
+  opacity: .6;
+  border-left: 1px solid gray;
+
+}
+
+.nav-icons i{
+  display: block;
+  padding: 16px;
+}
