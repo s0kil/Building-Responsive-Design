@@ -1,0 +1,23 @@
+{
+  "name": "Building-Responsive-Design",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s0kil/Building-Responsive-Design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s0kil/Building-Responsive-Design/issues"
+  },
+  "homepage": "https://github.com/s0kil/Building-Responsive-Design#readme",
+  "devDependencies": {
+    "modern-normalize": "^0.5.0"
+  }
+}
