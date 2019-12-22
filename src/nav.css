@@ -63,26 +63,27 @@ nav .main-navigation .dropdown-menu {
 }
 
 
-/* .nav-icons .icon-search-dark  */ 
+/* .nav-icons .icon-search-dark  */
 
 .nav-items {
   display: flex;
   justify-content: space-between;
 }
+
 .nav-sections ul li {
   display: inline-block;
-} 
+}
 
 .nav-sections ul li a {
-  font-family: Shentox,sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #aaa;
-    display: block;
-    height: 48px;
-    letter-spacing: .04em;
-    line-height: 1;
-    padding: 18px 10px 0;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  display: block;
+  height: 48px;
+  letter-spacing: .04em;
+  line-height: 1;
+  padding: 18px 10px 0;
 }
 
 .nav-icons {
@@ -94,7 +95,7 @@ nav .main-navigation .dropdown-menu {
 
 }
 
-.nav-icons i{
+.nav-icons i {
   display: block;
   padding: 16px;
 }
