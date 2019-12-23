@@ -236,3 +236,86 @@ Side Articles
   margin-top: 4px;
   font-size: 13px;
 }
+
+
+/* 
+Latest funding rounds 
+*/
+
+#latest-funding-rounds div:first-child {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+}
+
+#latest-funding-rounds div h2 {
+  color: #f42;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-family: Avalon, sans-serif;
+}
+
+
+#latest-funding-rounds div a {
+
+font-size: 0.8rem;
+margin-top: 10px;
+color: #f42;
+text-decoration: none;
+}
+
+.dash-menu::after { 
+content: "|";
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.latest-funding-rounds-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-funding-rounds-item a {
+  width: 270px;
+}
+
+.latest-funding-rounds-item a > h4 {
+  background-color: #f42;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 10.6px 16px 10.6px 84px;
+  margin: 0;
+}
+
+.latest-funding-rounds-item a > div {
+  padding: 10.6px 16px 10.6px 84px;
+  color: #000;
+  background: rgba(255,68,34,.08);
+  margin: 0;
+} 
+
+.latest-funding-rounds-item a > div > h4 {
+  margin:0px;
+  padding: 0px;
+  display: block;
+}
+
+.latest-funding-rounds-item a > div > h5 {
+  color: #000;
+  opacity: .5;
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  display: block;
+  margin:0px;
+  padding: 0px;
+}
+
+.latest-funding-rounds-item img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
