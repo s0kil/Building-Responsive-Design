@@ -242,7 +242,21 @@ Side Articles
 Latest funding rounds 
 */
 
-#latest-funding-rounds div:first-child {
+
+#latest-funding-rounds { 
+margin: 30px auto 0 auto;
+width: 70rem;
+}
+
+
+.funding-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+#latest-funding-heading {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -250,16 +264,15 @@ Latest funding rounds
   align-items: center;
 }
 
-#latest-funding-rounds div h2 {
+#latest-funding-heading h2 {
   color: #f42;
-  margin-left: 12px;
   font-weight: 700;
   font-size: 1.6rem;
   font-family: Avalon, sans-serif;
 }
 
 
-#latest-funding-rounds div a {
+#latest-funding-heading a {
 
 font-size: 0.8rem;
 margin-top: 10px;
@@ -277,6 +290,8 @@ margin-right: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
+  width: 270px;
+
 }
 
 .latest-funding-rounds-item a {
@@ -315,7 +330,70 @@ margin-right: 10px;
 }
 
 .latest-funding-rounds-item img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 10.6px;
+}
+
+.industry-company {
+  width: 100%;
+  background: #fffaf8;
+}
+
+.industry-company div {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 100%;
+
+}
+
+.industry-company a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 300;
+  width: 100%;
+
+}
+
+.industry-company a > span {
+ font-size: 0.9rem;
+ color: #555;
+ marging-bottom: 10px;
+}
+
+.industry-company i{
+  margin-top: 3px;
+  padding-right: 10px;
+}
+
+.industry-company i svg {
   width: 16px;
   height: 16px;
-  position: absolute;
+}
+
+.industry-company-funding {
+  border-top: 1px solid rgba(255,68,34,.25);
+  padding-top: 10px;
+}
+
+.industry-company-funding a,
+.industry-company-funding a span{
+  display: inline;
+  width: 100%;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.industry-company-funding a {
+  
+  font-weight: 200;
+  color: #555;
+  line-height: 1.3rem;
+}
+
+.industry-company-funding a span {
+  color: #aaa;
 }
