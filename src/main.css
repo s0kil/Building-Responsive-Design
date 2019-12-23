@@ -30,7 +30,7 @@ header {
   height: 100%;
   background-image: linear-gradient(170deg,
   rgba(255, 68, 34, 0.8) 40%, rgba(0, 0, 0, 0.73)),
-  url(/src/img/main-article-img.jpg);
+  url(./img/main-article-img.jpg);
   background-color: #000;
   background-size: cover;
   background-position: 50%;
@@ -121,7 +121,7 @@ Side Articles
   height: 100%;
   background-image: linear-gradient(to bottom,
   rgba(245, 246, 252, 0.2), rgba(0, 0, 0, 0.73)),
-  url(/src/img/main-article-img-1.jpg);
+  url(./img/main-article-img-1.jpg);
   background-size: cover;
   background-position: 50%;
   z-index: 1;
@@ -132,7 +132,7 @@ Side Articles
   height: 100%;
   background-image: linear-gradient(to bottom,
   rgba(245, 246, 252, 0.2), rgba(0, 0, 0, 0.73)),
-  url(/src/img/main-article-img-2.png);
+  url(./img/main-article-img-2.png);
   background-color: #000;
   background-size: cover;
   background-position: 50%;
@@ -181,4 +181,58 @@ Side Articles
   vertical-align: middle;
   width: 0.75rem;
   height: 0.75rem;
+}
+
+#latest-news {
+  margin: 30px auto 0 auto;
+  width: 70rem;
+}
+
+#latest-news h2,
+#latest-news span {
+  display: inline-block;
+}
+
+#latest-news h2 {
+  color: #f42;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  font-family: Avalon, sans-serif;
+}
+
+#latest-news span svg {
+  width: 16px;
+  height: 16px;
+}
+
+#latest-news > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#latest-news .latest-news-item {
+  --width: 270px;
+  flex-basis: 25%;
+  padding: 12px;
+}
+
+#latest-news .latest-news-item h3 {
+  margin-bottom: 0;
+}
+
+#latest-news .latest-news-item img {
+  width: 100%;
+  height: 124px;
+  max-width: var(--width);
+  object-fit: cover;
+}
+
+#latest-news .latest-news-item p,
+#latest-news .latest-news-item time {
+  display: inline-block;
+  color: #aaa;
+  margin-top: 4px;
+  font-size: 13px;
 }
