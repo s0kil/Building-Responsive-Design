@@ -512,3 +512,220 @@ Latest funding rounds
   height: 4px;
   width: 4px;
 }
+
+
+/*
+Latest Deals
+ */
+
+ #deals {
+  width: 74rem;
+  margin: 30px auto 0 auto;
+ }
+
+.deals-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+ .deals-header h2 a {
+  display:inline-block;  
+  color: #f42;
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  font-family: Avalon, sans-serif;
+}
+
+.deals-header span svg {
+  width: 16px;
+  height: 16px;
+}
+.deals-header a {
+  color: #f42;
+  text-decoration: none;
+  line-height: 18px;
+}
+
+.deals-story-group {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.deals-story-group li {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.deals-story {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.deals-story .story-image-1{
+
+  background-image: url(/src/img/story-deal-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+  margin-bottom: 8px;
+  height: 0;
+  width: 100%;
+  padding-top: 74.5%;  /* check with Daniel */
+}
+
+.story-discount{
+  position: absolute;
+
+  background-image: url(/src/img/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+}
+
+.story-discount div {
+  transform: rotate(45deg);
+  font-size: 0.9rem;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  bottom: 60px;
+  width: 100%;
+  color: black;
+}
+
+.story-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1rem;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.story-dealPrice-old {
+  text-decoration: line-through;
+  margin-right: 4px;
+  color: #aaa;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.story-dealPrice-new {
+  color: #555;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.story-title a{
+  color: black;
+  text-decoration: none
+}
+
+.story-title a:hover{
+  color: #f42;
+  text-decoration: underline;
+}
+
+
+.deals-story .story-image-2{
+
+  background-image: url(/src/img/story-deal-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+  margin-bottom: 8px;
+  height: 0;
+  width: 100%;
+  padding-top: 74.5%;  /* check with Daniel */
+}
+
+.deals-story .story-image-3{
+
+  background-image: url(/src/img/story-deal-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+  margin-bottom: 8px;
+  height: 0;
+  width: 100%;
+  padding-top: 74.5%;  /* check with Daniel */
+}
+
+.deals-story .story-image-4{
+
+  background-image: url(/src/img/story-deal-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+  margin-bottom: 8px;
+  height: 0;
+  width: 100%;
+  padding-top: 74.5%;  /* check with Daniel */
+}
+.deals-story .story-image-5{
+
+  background-image: url(/src/img/story-deal-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+  margin-bottom: 8px;
+  height: 0;
+  width: 100%;
+  padding-top: 74.5%;  /* check with Daniel */
+}
+
+.deals-story .story-image-6{
+
+  background-image: url(/src/img/story-deal-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+  margin-bottom: 8px;
+  height: 0;
+  width: 100%;
+  padding-top: 74.5%;  /* check with Daniel */
+}
+
+.deals-story .story-image-7{
+
+  background-image: url(/src/img/story-deal-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+  margin-bottom: 8px;
+  height: 0;
+  width: 100%;
+  padding-top: 74.5%;  /* check with Daniel */
+}
+
+.deals-story .story-image-8{
+
+  background-image: url(/src/img/story-deal-8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%;
+  margin-bottom: 8px;
+  height: 0;
+  width: 100%;
+  padding-top: 74.5%;  /* check with Daniel */
+}
+
+.story-discount-hidden {
+  display: none;
+}
