@@ -659,7 +659,7 @@ Latest Deals
 
 .deals-story .story-image-2{
 
-  background-image: url(/src/img/story-deal-2.jpg);
+  background-image: url(../src/img/story-deal-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
@@ -671,7 +671,7 @@ Latest Deals
 
 .deals-story .story-image-3{
 
-  background-image: url(/src/img/story-deal-3.jpg);
+  background-image: url(../src/img/story-deal-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
@@ -683,7 +683,7 @@ Latest Deals
 
 .deals-story .story-image-4{
 
-  background-image: url(/src/img/story-deal-4.jpg);
+  background-image: url(../src/img/story-deal-4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
@@ -694,7 +694,7 @@ Latest Deals
 }
 .deals-story .story-image-5{
 
-  background-image: url(/src/img/story-deal-5.jpg);
+  background-image: url(../src/img/story-deal-5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
@@ -706,7 +706,7 @@ Latest Deals
 
 .deals-story .story-image-6{
 
-  background-image: url(/src/img/story-deal-6.jpg);
+  background-image: url(../src/img/story-deal-6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
@@ -718,7 +718,7 @@ Latest Deals
 
 .deals-story .story-image-7{
 
-  background-image: url(/src/img/story-deal-7.jpg);
+  background-image: url(../src/img/story-deal-7.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
@@ -730,7 +730,7 @@ Latest Deals
 
 .deals-story .story-image-8{
 
-  background-image: url(/src/img/story-deal-8.jpg);
+  background-image: url(../src/img/story-deal-8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
