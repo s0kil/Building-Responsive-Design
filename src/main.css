@@ -766,12 +766,18 @@ footer
 .footer-social-links ul li a {
   background: #333;
   border-radius: 50%;
-  display: block;
+/*   display: block; */
   height: 40px;
   padding: 12px;
   text-align: center;
   width: 40px;
 }
+
+.footer-social-links ul li a i svg{
+  position: relative;
+  top: 3px;
+}
+
 
 .footer-page-links {
   padding-bottom: 28px;
