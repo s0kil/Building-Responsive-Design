@@ -413,6 +413,21 @@ Latest funding rounds
   font-family: Shentox, sans-serif;
 }
 
+.category-item .category-item-title {
+  display:inline-block;  
+  color: #f42;
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  font-family: Avalon, sans-serif;
+}
+
+#categories span svg {
+  width: 16px;
+  height: 16px;
+}
+
+
 .category-item-list-popular {
   height: var(--size);
   width: calc(var(--size) + 100px);
