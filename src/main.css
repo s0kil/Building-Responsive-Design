@@ -15,7 +15,7 @@ a {
 
 #introduction {
   display: flex;
-  height: 40vh;
+  height: 60vh;
   padding: 4px;
   max-height: 560px;
 }
@@ -24,6 +24,7 @@ a {
   flex-basis: 66.6%;
   position: relative;
   padding: 3px;
+/*   height: 60vh; */
 }
 
 .main-article-img {
@@ -80,6 +81,7 @@ a {
   line-height: 1;
   color: #fff;
   margin: 0;
+  padding-bottom: 10px;
 }
 
 .cover-heading ul li {
@@ -162,6 +164,7 @@ Side Articles
   line-height: 1;
   color: #fff;
   margin: 0;
+  padding-bottom: 6px;
 }
 
 .side-heading ul li {
@@ -185,7 +188,7 @@ Side Articles
 
 #latest-news {
   margin: 30px auto 0 auto;
-  width: 70rem;
+  width: 74rem;
 }
 
 #latest-news h2,
@@ -243,13 +246,14 @@ Latest funding rounds
 */
 #latest-funding-rounds {
   margin: 30px auto 0 auto;
-  width: 70rem;
+  width: 74rem;
 }
 
 .funding-wrap {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 10px;
 
 }
 
@@ -259,6 +263,12 @@ Latest funding rounds
   justify-content: space-between;
   height: auto;
   align-items: center;
+  margin: 0 10px;
+}
+
+#latest-funding-heading h2 span svg {
+  width: 16px;
+  height: 16px;
 }
 
 #latest-funding-heading h2 {
@@ -266,6 +276,7 @@ Latest funding rounds
   font-weight: 700;
   font-size: 1.6rem;
   font-family: Avalon, sans-serif;
+
 }
 
 #latest-funding-heading a {
@@ -521,6 +532,7 @@ Latest Deals
  #deals {
   width: 74rem;
   margin: 30px auto 0 auto;
+  padding-bottom: 100px;
  }
 
 .deals-header {
@@ -528,6 +540,7 @@ Latest Deals
   align-items: baseline;
   justify-content: space-between;
   margin-bottom: 0px;
+  margin: 0 10px;
 }
 
  .deals-header h2 a {
@@ -552,6 +565,7 @@ Latest Deals
 .deals-story-group {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
 }
 
@@ -728,4 +742,88 @@ Latest Deals
 
 .story-discount-hidden {
   display: none;
+}
+
+/*
+footer
+*/
+
+ footer {
+  background: #131313;
+  padding-top: 42px;
+ }
+
+.footer-social-links ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px ;
+}
+.footer-social-links ul li {
+  display: inline;
+  margin: 0 8px;;
+}
+
+.footer-social-links ul li a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-page-links {
+  padding-bottom: 28px;
+}
+
+.footer-page-links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-page-links ul li {
+  margin: 0 6px;
+}
+
+.footer-page-links ul li a {
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 0.75rem;
+  font-weight: 300;
+  
+}
+
+.footer-legal {
+  padding: 3em 0;
+  background: #000;
+}
+
+.footer-legal .wrapper {
+  text-align: center ;
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.footer-legal span {
+  color: #aaa;
+  font-size: 0.75rem;
+}
+
+.footer-legal span b {
+  color: #f42;
+}
+
+.footer-legal .footer-legal-logoTNW svg {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+}
+
+.footer-legal .footer-logostackPath svg{
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
 }
