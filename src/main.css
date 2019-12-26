@@ -583,7 +583,7 @@ Latest Deals
 
 .deals-story .story-image-1{
 
-  background-image: url(/src/img/story-deal-1.jpg);
+  background-image: url(img/story-deal-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
@@ -596,7 +596,7 @@ Latest Deals
 .story-discount{
   position: absolute;
 
-  background-image: url(/src/img/deals-ribbon.svg);
+  background-image: url(img/deals-ribbon.svg);
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
