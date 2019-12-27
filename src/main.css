@@ -285,22 +285,44 @@ Side Articles
 
   #latest-news > div {
     flex-direction: column;
+    width: 80vw;
   }
 
   #latest-news .latest-news-item {
     --width: 75px;
-
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap-reverse;
-
-    max-width: 100vw;
+    flex-wrap: wrap;
+    max-height: 95px;
+  /*   max-width: 100vw; */
   }
 
   #latest-news .latest-news-item img {
     width: var(--width);
     height: var(--width);
-    flex-basis: 100%;
   }
+
+  #latest-news .latest-news-item h3 {
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+    margin:0;
+    margin-left:10px;
+    margin-right: 20px;
+
+  }
+
+  #latest-news .latest-news-item p {
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 0.6rem;
+  }
+  
+  #latest-news .latest-news-item time {
+    display: inline;
+    margin: 0 5px;
+    font-size: 0.6rem;
+  }
+
 }
 
 /*
