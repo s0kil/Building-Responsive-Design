@@ -1,10 +1,80 @@
-nav {
-  height: 80px;
-}
-
 nav .main-navigation .sitemap-links,
 nav .main-navigation .nav-company-links {
   line-height: var(--height);
+}
+
+nav {
+  height: 80px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, .15);
+}
+
+#nav-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background-color: rgb(255, 255, 255);
+
+  transform: translateY(-32px);
+}
+
+#nav-sticky .nav-logo {
+  display: block;
+}
+
+.nav-logo:hover .nav-popout {
+  display: block;
+}
+
+.nav-popout {
+  display: none;
+
+  background: rgba(0, 0, 0, .95);
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 106px;
+}
+
+.nav-popout li {
+  text-align: center;
+  line-height: 19px;
+  padding: 6px 0;
+}
+
+.nav-popout li:hover a {
+  color: rgb(255, 255, 255);
+}
+
+.nav-popout a {
+  font-size: 13px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  color: hsla(0, 0%, 100%, .6);
+}
+
+.nav-logo {
+  display: none;
+}
+
+.nav-logo > a {
+  height: 48px;
+  width: 106px;
+  display: block;
+  padding: 16px 22px;
+
+  background: #f42;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+}
+
+.nav-logo > a:hover {
+  background-image: url("./img/home.gif");
+  background-size: cover;
+  background-position: 50%;
+}
+
+.nav-logo svg {
+  height: 16px;
+  width: 66px;
 }
 
 nav .main-navigation {
@@ -70,6 +140,10 @@ nav .main-navigation .dropdown-menu {
   justify-content: space-between;
 }
 
+.logo-section {
+  display: flex;
+}
+
 .nav-sections ul li {
   display: inline-block;
 }
@@ -86,16 +160,35 @@ nav .main-navigation .dropdown-menu {
   padding: 18px 10px 0;
 }
 
+.nav-sections ul li a:first-child {
+  padding-left: 20px;
+}
+
 .nav-icons {
   display: block;
   height: 48px;
   width: 48px;
   opacity: .6;
   border-left: 1px solid gray;
-
 }
 
 .nav-icons i {
   display: block;
   padding: 16px;
+}
+
+@media screen and (max-device-width: 320px) {
+  nav {
+    height: 48px;
+  }
+
+  nav .nav-sections,
+  nav .nav-company-links,
+  nav .main-navigation {
+    display: none;
+  }
+
+  #nav-sticky {
+    transform: none;
+  }
 }
