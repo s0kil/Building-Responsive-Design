@@ -283,14 +283,19 @@ Side Articles
     max-width: 100vw;
   }
 
+  #latest-news h2 {
+    padding-left: 6px;
+  }
+
   #latest-news > div {
     flex-direction: column;
-    width: 80vw;
+    width: 95vw;
+    margin: 0 auto;
   }
 
   #latest-news .latest-news-item {
     --width: 75px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     flex-wrap: wrap;
     max-height: 95px;
@@ -300,27 +305,29 @@ Side Articles
   #latest-news .latest-news-item img {
     width: var(--width);
     height: var(--width);
+    float: left;
   }
 
   #latest-news .latest-news-item h3 {
-    font-size: 0.7rem;
-    line-height: 1.1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.0rem;
     margin:0;
-    margin-left:10px;
-    margin-right: 20px;
+    margin-left:90px;
+    margin-right: 0px;
 
   }
 
   #latest-news .latest-news-item p {
     display: inline-block;
-    margin: 10px 5px;
-    font-size: 0.6rem;
+    margin-top: 6px;
+    margin-left: 15px;
+    font-size: 0.7rem;
   }
   
   #latest-news .latest-news-item time {
     display: inline;
-    margin: 0 5px;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 
 }
