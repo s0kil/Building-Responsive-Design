@@ -933,6 +933,61 @@ Latest Deals
   display: none;
 }
 
+@media screen and (max-device-width: 320px) {
+
+  #deals header {
+    padding: 0 5px;
+  }
+  .deals-story-group {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 95vw;
+    margin: 0 auto;
+  }
+  .deals-story {
+    display: block;
+  }
+  #deals ul li{
+    --width: 75px;
+    display: inline-block;
+    max-height: 95px;
+  }
+
+  #deals .story-image-1,
+  #deals .story-image-2,
+  #deals .story-image-3,
+  #deals .story-image-4,
+  #deals .story-image-5,
+  #deals .story-image-6,
+  #deals .story-image-7,
+  #deals .story-image-8 {
+    width: var(--width);
+    height: var(--width);
+    float: left;
+    padding-top: 0;
+    background-position: 50% 50%;
+  }
+
+  .story-discount {
+    display: none;
+  }
+
+  .story-title a {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    max-width: auto;
+    margin-left: 90px;
+  }
+  .story-deal-price{
+    display: inline;
+    margin-left: 15px;
+    font-size: 0.6rem;
+  }
+
+
+}
+
 /*
 footer
 */
@@ -950,7 +1005,7 @@ footer {
 
 .footer-social-links ul li {
   display: inline;
-  margin: 0 8px;;
+  margin: 0 8px;
 }
 
 .footer-social-links ul li a {
@@ -1029,7 +1084,39 @@ footer {
     display: none;
   }
 
+  .footer-social-links ul li {
+    display: inline;
+    margin: 0 4px;
+  }
+
+  footer .footer-page-links {
+    max-width: 85vw;
+    margin: 0 auto;
+    padding-top: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  footer .footer-page-links ul li:nth-child(3) {
+    display: none;
+  }
+
   footer .footer-page-links ul {
     flex-wrap: wrap;
   }
+  footer .footer-legal {
+    padding: 20px 0;
+  }
+  footer .footer-legal .wrapper {
+    max-width: 85vw;
+    margin: 0 auto;
+    line-height: 1.5rem;
+  }
+
+  footer .footer-legal .wrapper span {
+    display: block;
+  }
+  }
+
+  
 }
