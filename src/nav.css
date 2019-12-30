@@ -177,9 +177,11 @@ nav .main-navigation .dropdown-menu {
   padding: 16px;
 }
 
-@media screen and (max-device-width: 320px) {
+@media screen and (max-device-width: 320px),
+screen and (max-device-width: 375px) {
   nav {
     height: 48px;
+
   }
 
   nav .nav-sections,
@@ -192,3 +194,11 @@ nav .main-navigation .dropdown-menu {
     transform: none;
   }
 }
+
+@media screen and (max-device-width: 375px) {
+  .nav-logo {
+    display: block;
+  }
+  
+}
+
