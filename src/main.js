@@ -1,6 +1,8 @@
 (() => {
   // Load Category List Images
-  let categoriesListItem = [...document.getElementsByClassName("category-item-list-popular")];
+  let categoriesListItem = [
+    ...document.getElementsByClassName("category-item-list-popular")
+  ];
   categoriesListItem.forEach(listItem => {
     let categoryItemBgImage = listItem.dataset.categoryItemBgimage;
     if (categoryItemBgImage !== undefined) {
@@ -17,12 +19,14 @@
   if (screen.width > 320) {
     // Nav Bar Sticky On Scroll
     window.onscroll = () => {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
         nav.id = "nav-sticky";
       } else nav.id = "";
     };
   } else {
     nav.id = "nav-sticky";
   }
-
 })();

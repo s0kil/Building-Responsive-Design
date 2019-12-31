@@ -5,7 +5,7 @@ nav .main-navigation .nav-company-links {
 
 nav {
   height: 80px;
-  box-shadow: 0 0 32px rgba(0, 0, 0, .15);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
 }
 
 #nav-sticky {
@@ -29,7 +29,7 @@ nav {
 .nav-popout {
   display: none;
 
-  background: rgba(0, 0, 0, .95);
+  background: rgba(0, 0, 0, 0.95);
   position: absolute;
   top: 80px;
   left: 0;
@@ -49,7 +49,7 @@ nav {
 .nav-popout a {
   font-size: 13px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .nav-logo {
@@ -132,7 +132,6 @@ nav .main-navigation .dropdown-menu {
   transition: transform 200ms ease-in 0s;
 }
 
-
 /* .nav-icons .icon-search-dark  */
 
 .nav-items {
@@ -155,7 +154,7 @@ nav .main-navigation .dropdown-menu {
   color: #aaa;
   display: block;
   height: 48px;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1;
   padding: 18px 10px 0;
 }
@@ -168,7 +167,7 @@ nav .main-navigation .dropdown-menu {
   display: block;
   height: 48px;
   width: 48px;
-  opacity: .6;
+  opacity: 0.6;
   border-left: 1px solid gray;
 }
 
@@ -178,10 +177,9 @@ nav .main-navigation .dropdown-menu {
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px) {
+  screen and (max-device-width: 375px) {
   nav {
     height: 48px;
-
   }
 
   nav .nav-sections,
@@ -199,6 +197,4 @@ screen and (max-device-width: 375px) {
   .nav-logo {
     display: block;
   }
-  
 }
-

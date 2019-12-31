@@ -1,18 +1,16 @@
 {
-  "name": "Building-Responsive-Design",
+  "name": "building-responsive-design",
+  "private": false,
   "version": "1.0.0",
-  "description": "> One paragraph statement about the project.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "The Next Web Clone",
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/s0kil/Building-Responsive-Design.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/s0kil/Building-Responsive-Design/issues"
   },

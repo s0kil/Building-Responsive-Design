@@ -33,9 +33,12 @@ a {
 
 .main-article-img {
   height: 100%;
-  background-image: linear-gradient(170deg,
-  rgba(255, 68, 34, 0.8) 40%, rgba(0, 0, 0, 0.73)),
-  url(./img/main-article-img.jpg);
+  background-image: linear-gradient(
+      170deg,
+      rgba(255, 68, 34, 0.8) 40%,
+      rgba(0, 0, 0, 0.73)
+    ),
+    url(./img/main-article-img.jpg);
   background-color: #000;
   background-size: cover;
   background-position: 50%;
@@ -67,14 +70,14 @@ a {
   z-index: 5;
   bottom: 10px;
   left: 20px;
-  height: auto;;
+  height: auto;
 }
 
 .cover-heading h5 {
   font-family: Shentox, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   margin: 0;
   color: #fff;
@@ -94,21 +97,21 @@ a {
 }
 
 .cover-heading ul li a {
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
   font-size: 0.75rem;
   font-weight: 200;
 }
 
 .cover-heading ul li svg {
   margin-right: 2px;
-  opacity: .6;
+  opacity: 0.6;
   vertical-align: middle;
   width: 0.75rem;
   height: 0.75rem;
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px) {
+  screen and (max-device-width: 375px) {
   #introduction {
     flex-direction: column;
     min-height: 100vh;
@@ -130,11 +133,14 @@ screen and (max-device-width: 375px) {
   }
 
   .main-article-img {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.2), rgba(0, 0, 0, 0.73)), url(./img/main-article-img.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(245, 246, 252, 0.2),
+        rgba(0, 0, 0, 0.73)
+      ),
+      url(./img/main-article-img.jpg);
   }
 }
-
-
 
 /*
 Side Articles
@@ -154,9 +160,12 @@ Side Articles
 
 .side-article-img-1 {
   height: 100%;
-  background-image: linear-gradient(to bottom,
-  rgba(245, 246, 252, 0.2), rgba(0, 0, 0, 0.73)),
-  url(./img/main-article-img-1.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.2),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url(./img/main-article-img-1.jpg);
   background-size: cover;
   background-position: 50%;
   z-index: 1;
@@ -165,9 +174,12 @@ Side Articles
 
 .side-article-img-2 {
   height: 100%;
-  background-image: linear-gradient(to bottom,
-  rgba(245, 246, 252, 0.2), rgba(0, 0, 0, 0.73)),
-  url(./img/main-article-img-2.png);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.2),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url(./img/main-article-img-2.png);
   background-color: #000;
   background-size: cover;
   background-position: 50%;
@@ -186,7 +198,7 @@ Side Articles
   font-family: Shentox, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   margin: 0;
   color: #fff;
@@ -206,21 +218,21 @@ Side Articles
 }
 
 .side-heading ul li a {
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
   font-size: 0.75rem;
   font-weight: 200;
 }
 
 .side-heading ul li svg {
   margin-right: 2px;
-  opacity: .6;
+  opacity: 0.6;
   vertical-align: middle;
   width: 0.75rem;
   height: 0.75rem;
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px) {
+  screen and (max-device-width: 375px) {
   .cover-heading h2,
   .side-heading h2 {
     font-size: 1.4rem;
@@ -283,7 +295,7 @@ screen and (max-device-width: 375px) {
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px) {
+  screen and (max-device-width: 375px) {
   #latest-news {
     max-width: 100vw;
   }
@@ -315,11 +327,8 @@ screen and (max-device-width: 375px) {
   #latest-news .latest-news-item h3 {
     font-size: 0.9rem;
     font-weight: 700;
-    line-height: 1.0rem;
-    margin:0;
-    margin-left:90px;
-    margin-right: 0px;
-
+    line-height: 1rem;
+    margin: 0 0 0 90px;
   }
 
   #latest-news .latest-news-item p {
@@ -328,14 +337,12 @@ screen and (max-device-width: 375px) {
     margin-left: 15px;
     font-size: 0.7rem;
   }
-  
+
   #latest-news .latest-news-item time {
     display: inline;
     font-size: 0.7rem;
   }
-
 }
-
 
 /*
 Latest funding rounds
@@ -350,7 +357,6 @@ Latest funding rounds
   width: 100%;
   justify-content: space-between;
   padding: 10px;
-
 }
 
 #latest-funding-heading {
@@ -372,7 +378,6 @@ Latest funding rounds
   font-weight: 700;
   font-size: 1.6rem;
   font-family: Avalon, sans-serif;
-
 }
 
 #latest-funding-heading a {
@@ -410,7 +415,7 @@ Latest funding rounds
 .latest-funding-rounds-item a > div {
   padding: 10px 16px 10px 84px;
   color: #000;
-  background: rgba(255, 68, 34, .08);
+  background: rgba(255, 68, 34, 0.08);
   margin: 0;
 }
 
@@ -422,7 +427,7 @@ Latest funding rounds
 
 .latest-funding-rounds-item a > div > h5 {
   color: #000;
-  opacity: .5;
+  opacity: 0.5;
   font-family: Shentox, sans-serif;
   font-weight: 500;
   display: block;
@@ -447,7 +452,6 @@ Latest funding rounds
   flex-direction: column;
   padding: 16px;
   width: 100%;
-
 }
 
 .industry-company a {
@@ -475,7 +479,7 @@ Latest funding rounds
 }
 
 .industry-company-funding {
-  border-top: 1px solid rgba(255, 68, 34, .25);
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
   padding-top: 10px;
 }
 
@@ -497,12 +501,11 @@ Latest funding rounds
   color: #aaa;
 }
 
-@media screen and (max-device-width: 320px), 
-screen and (max-device-width: 375px){
+@media screen and (max-device-width: 320px),
+  screen and (max-device-width: 375px) {
   #latest-funding-rounds {
     max-width: 100vh;
   }
-
 
   #latest-funding-heading {
     max-width: 100vw;
@@ -518,7 +521,7 @@ screen and (max-device-width: 375px){
   #latest-funding-heading div a {
     display: block;
     padding-left: 25px;
-    font-size:0.9rem;
+    font-size: 0.9rem;
     font-weight: 400;
   }
 
@@ -545,9 +548,7 @@ screen and (max-device-width: 375px){
     margin-bottom: 10px;
     margin-top: 10px;
   }
-
 }
-
 
 #categories {
   display: flex;
@@ -567,7 +568,7 @@ screen and (max-device-width: 375px){
   font-size: 13px;
   line-height: 1.5;
   font-weight: 500;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   font-family: Shentox, sans-serif;
 }
@@ -587,7 +588,7 @@ screen and (max-device-width: 375px){
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px)  {
+  screen and (max-device-width: 375px) {
   #categories {
     flex-direction: column;
     max-width: 100vw;
@@ -597,9 +598,7 @@ screen and (max-device-width: 375px)  {
     --size: 190px;
     margin: 0 auto;
   }
-
 }
-
 
 .category-item-list-popular {
   height: var(--size);
@@ -626,17 +625,17 @@ screen and (max-device-width: 375px)  {
 .category-item-list-popular header > a,
 .category-item-list-popular header > time {
   font-size: 12px;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .category-item-list-popular header > a::after {
-  content: '\B7';
+  content: "\B7";
   margin-left: 4px;
 }
 
 .category-item-list-latest {
   margin: 2px 0;
-  background-color: rgba(255, 68, 34, .06);
+  background-color: rgba(255, 68, 34, 0.06);
 }
 
 .category-item-list-latest header {
@@ -656,7 +655,7 @@ screen and (max-device-width: 375px)  {
   margin: 0;
   font-size: 14px;
   max-height: 56px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
 .category-item-list-latest img {
@@ -687,13 +686,12 @@ screen and (max-device-width: 375px)  {
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px)  {
-
+  screen and (max-device-width: 375px) {
   .category-item {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  
+
   .category-item-list li {
     background-size: cover;
   }
@@ -712,9 +710,7 @@ screen and (max-device-width: 375px)  {
     padding: 10px 8px 20px 5px;
     text-overflow: clip;
   }
-
 }
-
 
 /*
 Latest Deals
@@ -727,7 +723,7 @@ Latest Deals
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px)  {
+  screen and (max-device-width: 375px) {
   #deals {
     width: 100%;
   }
@@ -737,7 +733,6 @@ screen and (max-device-width: 375px)  {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 0px;
   margin: 0 10px;
 }
 
@@ -765,7 +760,6 @@ screen and (max-device-width: 375px)  {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .deals-story-group li {
@@ -781,7 +775,6 @@ screen and (max-device-width: 375px)  {
 }
 
 .deals-story .story-image-1 {
-
   background-image: url(img/story-deal-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -847,7 +840,7 @@ screen and (max-device-width: 375px)  {
 
 .story-title a {
   color: black;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .story-title a:hover {
@@ -855,9 +848,7 @@ screen and (max-device-width: 375px)  {
   text-decoration: underline;
 }
 
-
 .deals-story .story-image-2 {
-
   background-image: url(img/story-deal-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -869,7 +860,6 @@ screen and (max-device-width: 375px)  {
 }
 
 .deals-story .story-image-3 {
-
   background-image: url(img/story-deal-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -881,7 +871,6 @@ screen and (max-device-width: 375px)  {
 }
 
 .deals-story .story-image-4 {
-
   background-image: url(img/story-deal-4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -893,7 +882,6 @@ screen and (max-device-width: 375px)  {
 }
 
 .deals-story .story-image-5 {
-
   background-image: url(img/story-deal-5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -905,7 +893,6 @@ screen and (max-device-width: 375px)  {
 }
 
 .deals-story .story-image-6 {
-
   background-image: url(img/story-deal-6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -917,7 +904,6 @@ screen and (max-device-width: 375px)  {
 }
 
 .deals-story .story-image-7 {
-
   background-image: url(img/story-deal-7.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -929,7 +915,6 @@ screen and (max-device-width: 375px)  {
 }
 
 .deals-story .story-image-8 {
-
   background-image: url(img/story-deal-8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -945,8 +930,7 @@ screen and (max-device-width: 375px)  {
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px)  {
-
+  screen and (max-device-width: 375px) {
   #deals header {
     padding: 0 5px;
   }
@@ -959,7 +943,7 @@ screen and (max-device-width: 375px)  {
   .deals-story {
     display: block;
   }
-  #deals ul li{
+  #deals ul li {
     --width: 75px;
     display: inline-block;
     max-height: 95px;
@@ -988,16 +972,13 @@ screen and (max-device-width: 375px)  {
     display: block;
     font-size: 0.9rem;
     font-weight: 500;
-    max-width: auto;
     margin-left: 90px;
   }
-  .story-deal-price{
+  .story-deal-price {
     display: inline;
     margin-left: 15px;
     font-size: 0.6rem;
   }
-
-
 }
 
 /*
@@ -1035,7 +1016,6 @@ footer {
   top: 3px;
 }
 
-
 .footer-page-links {
   padding-bottom: 28px;
 }
@@ -1054,7 +1034,6 @@ footer {
   color: #aaa;
   font-size: 0.75rem;
   font-weight: 300;
-
 }
 
 .footer-legal {
@@ -1092,7 +1071,7 @@ footer {
 }
 
 @media screen and (max-device-width: 320px),
-screen and (max-device-width: 375px)  {
+  screen and (max-device-width: 375px) {
   footer .footer-social-links ul li:nth-child(6) {
     display: none;
   }
@@ -1104,10 +1083,9 @@ screen and (max-device-width: 375px)  {
 
   footer .footer-page-links {
     max-width: 85vw;
-    margin: 0 auto;
     padding-top: 20px;
     line-height: 1.5rem;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
   }
 
   footer .footer-page-links ul li:nth-child(3) {
@@ -1129,7 +1107,4 @@ screen and (max-device-width: 375px)  {
   footer .footer-legal .wrapper span {
     display: block;
   }
-  }
-
-  
-
+}
