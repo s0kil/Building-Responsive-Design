@@ -155,6 +155,7 @@
 @media screen and (max-device-width: 320px),
   screen and (max-device-width: 375px) {
   #latest-funding-rounds {
+    width: 100%;
     max-width: 100vh;
   }
 
