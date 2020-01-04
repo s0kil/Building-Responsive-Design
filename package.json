@@ -1,21 +1,15 @@
 {
   "name": "building-responsive-design",
-  "private": false,
-  "version": "1.0.0",
   "description": "The Next Web Clone",
-  "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/s0kil/Building-Responsive-Design.git"
+  "scripts": {
+    "renderHtml": "node tools/renderHTML.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/s0kil/Building-Responsive-Design/issues"
-  },
-  "homepage": "https://github.com/s0kil/Building-Responsive-Design#readme",
   "devDependencies": {
-    "modern-normalize": "^0.5.0"
+    "polka": "^0.5.2",
+    "puppeteer-core": "^2.0.0",
+    "sirv": "^0.4.2"
+  },
+  "dependencies": {
+    "modern-normalize": "^0.6.0"
   }
 }

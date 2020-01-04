@@ -1,0 +1,1195 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building with Responsive Design</title>
+
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="src/fonts.css">
+    <link rel="stylesheet" href="src/main.css">
+
+    <script src="src/include.js"></script>
+  </head>
+
+  <body>
+    <include src="./src/partials/nav.html"><nav>
+  <div class="main-navigation">
+    <div class="sitemap-links">
+      <ul>
+        <li><a href="#" id="active">News</a></li>
+        <li class="dropdown-menu-toggle">
+          <a href="#">Events ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Bowlr 2019</a></li>
+            <li><a href="#">TNW2020</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-menu-toggle">
+          <a href="#">Business ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Index</a></li>
+            <li><a href="#">TNW X</a></li>
+          </ul>
+        </li>
+        <li><a href="#">AMAs</a></li>
+        <li><a href="#">Spaces</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-company-links">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Advertise</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="nav-items">
+    <div class="logo-section">
+      <div class="nav-logo">
+        <a href="/">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
+            <path fill="#FFF" d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4"></path>
+          </svg>
+        </a>
+
+        <ul class="nav-popout">
+          <li><a href="#">News</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Index</a></li>
+          <li><a href="#">TQ</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Answers</a></li>
+          <li><a href="#">TNW X</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-sections">
+        <ul>
+          <li><a href="#">latest</a></li>
+          <li><a href="#">hard fork</a></li>
+          <li><a href="#">plugged</a></li>
+          <li><a href="#">fundamentals</a></li>
+          <li><a href="#">work 2030</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-icons">
+      <span class="icon-search-dark">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="search" x="832" y="832">
+          <path fill="#AAA" d="M-2.883 994.449c1.299-1.3 2.871-1.949 4.716-1.949 1.845 0 3.418.649 4.717 1.949 1.301 1.301 1.95 2.871 1.95 4.716s-.649 3.416-1.95 4.715c-1.299 1.301-2.872 1.952-4.717 1.952-.978 0-1.9-.201-2.765-.602l-4.018 2.95c-.356.266-.75.367-1.184.299a1.564 1.564 0 0 1-1.05-.633c-.212-.288-.316-.608-.316-.958s.104-.67.316-.957l2.95-4c-.4-.866-.6-1.788-.6-2.767.001-1.844.652-3.414 1.951-4.715zm1.416 8.014c.912.913 2.012 1.369 3.3 1.369 1.289 0 2.389-.456 3.3-1.369.911-.907 1.366-2.008 1.366-3.298 0-1.287-.455-2.389-1.366-3.301-.911-.909-2.011-1.364-3.3-1.364-1.289 0-2.389.455-3.3 1.364-.911.912-1.366 2.014-1.366 3.301 0 1.29.455 2.391 1.366 3.298z"></path>
+        </svg>
+      </span>
+    </div>
+  </div>
+</nav>
+</include>
+
+    <include src="./src/partials/introduction.html"><header id="introduction">
+  <article class="logo-overlay">
+    <div class="main-article-img"></div>
+    <div class="gradient"></div>
+    <div class="logo">
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
+          <path fill="#FFF" d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4"></path>
+        </svg>
+      </span>
+    </div>
+    <time class="date">Friday — December 20, 2019</time>
+    <div class="cover-heading">
+      <h5>gear</h5>
+      <h2>
+        Review: Vankyo’s MatrixPad Z10 is a budget-friendly tablet with a big,
+        bright screen
+      </h2>
+      <ul>
+        <li><a href="#">by</a></li>
+        <li><a href="#">Tristan Greene</a></li>
+        <li>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="clock--light" x="160" y="160">
+              <path fill="#FFF" d="M-3.508 993.575C-2.28 992.858-.944 992.5.5 992.5s2.78.358 4.008 1.075a7.982 7.982 0 0 1 2.917 2.916c.717 1.229 1.075 2.564 1.075 4.009s-.358 2.78-1.075 4.009a7.975 7.975 0 0 1-2.917 2.916c-1.228.717-2.564 1.075-4.008 1.075s-2.781-.358-4.008-1.075a7.982 7.982 0 0 1-2.917-2.916c-.717-1.229-1.075-2.564-1.075-4.009s.358-2.78 1.075-4.009a7.99 7.99 0 0 1 2.917-2.916zM-3.7 1004.7c1.178 1.178 2.578 1.767 4.2 1.767 1.622 0 3.022-.589 4.2-1.767 1.177-1.178 1.767-2.578 1.767-4.2s-.59-3.022-1.767-4.2c-1.178-1.178-2.578-1.767-4.2-1.767-1.623 0-3.022.589-4.2 1.767s-1.767 2.578-1.767 4.2.589 3.022 1.767 4.2zm7.267-1.066a.84.84 0 0 1-.592.232.84.84 0 0 1-.592-.232l-2.633-2.101c-.233-.211-.339-.461-.317-.75l.184-4.233a.866.866 0 0 1 .283-.616.834.834 0 0 1 .633-.233c.233.011.431.1.592.267s.247.361.258.583l.167 3.783 2.067 2.033a.85.85 0 0 1 .233.643.88.88 0 0 1-.283.624z"></path>
+            </svg>
+          </span>
+        </li>
+        <li><a href="#">38 minutes ago</a></li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="share--light" x="912" y="912">
+            <path fill="#FFF" d="M8.5 1005.5a3.001 3.001 0 0 1-6 0v-.008l-5.195-2.594a3 3 0 1 1 0-4.796l5.195-2.594v-.008a3.001 3.001 0 0 1 6 0 3.001 3.001 0 0 1-4.805 2.398l-5.211 2.602 5.211 2.602A3 3 0 0 1 8.5 1005.5z"></path>
+          </svg>
+        </li>
+        <li>
+          <a href="#">
+            3
+          </a>
+        </li>
+      </ul>
+    </div>
+  </article>
+  <div class="mid-article-wrap">
+    <article class="side-article">
+      <div class="side-article-img-1"></div>
+      <div class="side-heading">
+        <h5>podium</h5>
+        <h2>The shared economy comes to advertising</h2>
+        <ul>
+          <li><a href="#">by</a></li>
+          <li><a href="#">Alice Bonasio</a></li>
+          <li>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="clock--light" x="160" y="160">
+                <path fill="#FFF" d="M-3.508 993.575C-2.28 992.858-.944 992.5.5 992.5s2.78.358 4.008 1.075a7.982 7.982 0 0 1 2.917 2.916c.717 1.229 1.075 2.564 1.075 4.009s-.358 2.78-1.075 4.009a7.975 7.975 0 0 1-2.917 2.916c-1.228.717-2.564 1.075-4.008 1.075s-2.781-.358-4.008-1.075a7.982 7.982 0 0 1-2.917-2.916c-.717-1.229-1.075-2.564-1.075-4.009s.358-2.78 1.075-4.009a7.99 7.99 0 0 1 2.917-2.916zM-3.7 1004.7c1.178 1.178 2.578 1.767 4.2 1.767 1.622 0 3.022-.589 4.2-1.767 1.177-1.178 1.767-2.578 1.767-4.2s-.59-3.022-1.767-4.2c-1.178-1.178-2.578-1.767-4.2-1.767-1.623 0-3.022.589-4.2 1.767s-1.767 2.578-1.767 4.2.589 3.022 1.767 4.2zm7.267-1.066a.84.84 0 0 1-.592.232.84.84 0 0 1-.592-.232l-2.633-2.101c-.233-.211-.339-.461-.317-.75l.184-4.233a.866.866 0 0 1 .283-.616.834.834 0 0 1 .633-.233c.233.011.431.1.592.267s.247.361.258.583l.167 3.783 2.067 2.033a.85.85 0 0 1 .233.643.88.88 0 0 1-.283.624z"></path>
+              </svg>
+            </span>
+          </li>
+          <li><a href="#">3 hours ago</a></li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="share--light" x="912" y="912">
+              <path fill="#FFF" d="M8.5 1005.5a3.001 3.001 0 0 1-6 0v-.008l-5.195-2.594a3 3 0 1 1 0-4.796l5.195-2.594v-.008a3.001 3.001 0 0 1 6 0 3.001 3.001 0 0 1-4.805 2.398l-5.211 2.602 5.211 2.602A3 3 0 0 1 8.5 1005.5z"></path>
+            </svg>
+          </li>
+          <li>
+            <a href="#">
+              16
+            </a>
+          </li>
+        </ul>
+      </div>
+    </article>
+    <article class="side-article">
+      <div class="side-article-img-2"></div>
+      <div class="side-heading">
+        <h5>tech</h5>
+        <h2>
+          France fines Google €150 million for abusing its ad dominance
+        </h2>
+        <ul>
+          <li><a href="#">by</a></li>
+          <li><a href="#">Már Másson Maack</a></li>
+          <li>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="clock--light" x="160" y="160">
+                <path fill="#FFF" d="M-3.508 993.575C-2.28 992.858-.944 992.5.5 992.5s2.78.358 4.008 1.075a7.982 7.982 0 0 1 2.917 2.916c.717 1.229 1.075 2.564 1.075 4.009s-.358 2.78-1.075 4.009a7.975 7.975 0 0 1-2.917 2.916c-1.228.717-2.564 1.075-4.008 1.075s-2.781-.358-4.008-1.075a7.982 7.982 0 0 1-2.917-2.916c-.717-1.229-1.075-2.564-1.075-4.009s.358-2.78 1.075-4.009a7.99 7.99 0 0 1 2.917-2.916zM-3.7 1004.7c1.178 1.178 2.578 1.767 4.2 1.767 1.622 0 3.022-.589 4.2-1.767 1.177-1.178 1.767-2.578 1.767-4.2s-.59-3.022-1.767-4.2c-1.178-1.178-2.578-1.767-4.2-1.767-1.623 0-3.022.589-4.2 1.767s-1.767 2.578-1.767 4.2.589 3.022 1.767 4.2zm7.267-1.066a.84.84 0 0 1-.592.232.84.84 0 0 1-.592-.232l-2.633-2.101c-.233-.211-.339-.461-.317-.75l.184-4.233a.866.866 0 0 1 .283-.616.834.834 0 0 1 .633-.233c.233.011.431.1.592.267s.247.361.258.583l.167 3.783 2.067 2.033a.85.85 0 0 1 .233.643.88.88 0 0 1-.283.624z"></path>
+              </svg>
+            </span>
+          </li>
+          <li><a href="#">4 hours ago</a></li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="share--light" x="912" y="912">
+              <path fill="#FFF" d="M8.5 1005.5a3.001 3.001 0 0 1-6 0v-.008l-5.195-2.594a3 3 0 1 1 0-4.796l5.195-2.594v-.008a3.001 3.001 0 0 1 6 0 3.001 3.001 0 0 1-4.805 2.398l-5.211 2.602 5.211 2.602A3 3 0 0 1 8.5 1005.5z"></path>
+            </svg>
+          </li>
+          <li>
+            <a href="#">
+              10
+            </a>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</header>
+</include>
+
+    <include src="./src/partials/latest-news.html"><section id="latest-news">
+  <h2>Latest News</h2>
+  <span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+    </svg>
+  </span>
+
+  <div>
+    <div class="latest-news-item">
+      <img src="src/img/sandwich-hacker.png" alt="Sandwich Hacker">
+      <h3>
+        Hackers steal $480,000 worth of NULS cryptocurrency from its dev team
+      </h3>
+      <p>David Canellis</p>
+      <time datetime="2019-12-23T14:05:46+00:00" data-full-date="Dec 23, 2019 - 09:05">1 hour ago</time>
+    </div>
+
+    <div class="latest-news-item">
+      <img src="src/img/sale-primary.jpg" alt="Sale">
+      <h3>
+        ProjectDue helps keep your business affairs straight -- and right now,
+        it’s over 90% off
+      </h3>
+      <p>TNW Deals</p>
+      <time datetime="2019-12-23T13:00:00+00:00" data-full-date="Dec 23, 2019 - 08:00">2 hours ago</time>
+    </div>
+
+    <div class="latest-news-item">
+      <img src="src/img/ToTok.jpg" alt="ToTok">
+      <h3>
+        The UAE is reportedly spying on millions of ToTok messenger users
+      </h3>
+      <p>Abhimanyu Ghoshal</p>
+      <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">6 hours ago</time>
+    </div>
+
+    <div class="latest-news-item">
+      <img src="src/img/tiktok.png" alt="TikTok">
+      <h3>
+        US Navy officers can't use TikTok on government-issued phones because
+        it's a 'cybersecurity threat'
+      </h3>
+      <p>Abhimanyu Ghoshal</p>
+      <time datetime="2019-12-23T08:51:57+00:00" data-full-date="Dec 23, 2019 - 03:51">6 hours ago</time>
+    </div>
+
+    <div class="latest-news-item">
+      <img src="src/img/Radiohead.jpg" alt="Radiohead">
+      <h3>You can now stream every Radiohead album for free on YouTube</h3>
+      <p>Abhimanyu Ghoshal</p>
+      <time datetime="2019-12-23T04:39:01+00:00" data-full-date="Dec 22, 2019 - 23:39">10 hours ago</time>
+    </div>
+
+    <div class="latest-news-item">
+      <img src="src/img/snowman.png" alt="Snowman">
+      <h3>
+        How do you teach a car that a snowman won’t walk across the road?
+      </h3>
+      <p>Aeon</p>
+      <time datetime="2019-12-23T02:00:36+00:00" data-full-date="Dec 22, 2019 - 21:00">13 hours ago</time>
+    </div>
+
+    <div class="latest-news-item">
+      <img src="src/img/game-truck.png" alt="Game Truck">
+      <h3>
+        How I used app store optimization to get my game downloaded 2M times
+      </h3>
+      <p>Oleg Yakubnekov</p>
+      <time datetime="2019-12-23T00:00:03+00:00" data-full-date="Dec 22, 2019 - 19:00">15 hours ago</time>
+    </div>
+
+    <div class="latest-news-item">
+      <img src="src/img/streaming-wars.png" alt="Streaming Wars">
+      <h3>Why the 2020 streaming wars will be won by robots</h3>
+      <p>Arash Pendari</p>
+      <time datetime="2019-12-22T20:00:28+00:00" data-full-date="Dec 22, 2019 - 15:00">19 hours ago</time>
+    </div>
+  </div>
+</section>
+</include>
+
+    <include src="./src/partials/latest-funding-rounds.html"><section id="latest-funding-rounds">
+  <div id="latest-funding-heading">
+    <h2>
+      Latest funding rounds on Index.co
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+          <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+        </svg>
+      </span>
+    </h2>
+    <div>
+      <a class="dash-menu" href="#">Add info</a>
+      <a class="dash-menu" href="#">Get updates by email</a>
+      <a href="#">See more</a>
+    </div>
+  </div>
+
+  <div class="funding-wrap">
+    <div class="latest-funding-rounds-item">
+      <a href="#">
+        <img src="src/img/funding-img-1.jpeg" alt="investment logo">
+        <h4>SUMMERSALT</h4>
+        <div>
+          <h4>$17.3M</h4>
+          <h5>Series B</h5>
+        </div>
+      </a>
+      <div class="industry-company">
+        <div>
+          <a href="#">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="656.5 1056.5 16 16" id="tag--dark" x="976" y="976">
+                <path d="M661.231 1059.879c0-.373-.132-.691-.396-.955-.264-.265-.583-.396-.956-.396s-.692.132-.956.396a1.301 1.301 0 0 0-.396.955c0 .374.132.692.396.956s.583.396.956.396.691-.132.956-.396.396-.582.396-.956zm11.269 6.083c0 .374-.13.69-.391.951l-5.186 5.195a1.35 1.35 0 0 1-.961.392c-.373 0-.69-.131-.95-.392l-7.551-7.562c-.268-.26-.495-.615-.681-1.066-.187-.45-.28-.862-.28-1.235v-4.394a1.3 1.3 0 0 1 .401-.95c.268-.268.584-.401.951-.401h4.394c.373 0 .785.093 1.235.279.451.188.81.414 1.077.682l7.551 7.541c.261.274.391.595.391.96z"></path>
+              </svg>
+            </span>
+            <span>E-Commerce</span>
+          </a>
+          <a href="#">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-239.5 160.5 16 16" id="briefcase--dark" x="48" y="48">
+                <path d="M-233.786 163.833h4.571v-1.166h-4.571v1.166zm10.286 5.833v4.374c0 .402-.141.744-.42 1.03-.28.285-.616.43-1.009.43h-13.144c-.393 0-.729-.145-1.009-.43s-.419-.628-.419-1.03v-4.374h6v1.459c0 .158.056.293.169.409a.545.545 0 0 0 .402.173h2.855a.545.545 0 0 0 .402-.173.565.565 0 0 0 .17-.409v-1.459h6.003zm-6.857 0v1.167h-2.285v-1.167h2.285zm6.857-4.373v3.498h-16v-3.498c0-.403.14-.745.419-1.032.28-.284.616-.429 1.009-.429h3.144v-1.457c0-.243.083-.449.25-.62a.822.822 0 0 1 .606-.255h5.144c.237 0 .439.086.606.255a.857.857 0 0 1 .249.62v1.457h3.145c.393 0 .729.145 1.009.429.278.287.419.63.419 1.032z"></path>
+              </svg>
+            </span>
+            <span>Dundee Venture Capital, +5</span>
+          </a>
+        </div>
+
+        <div class="industry-company-funding">
+          <a href="#">Summersalt Secures $17.3M in Series B Funding
+            <span>on&nbsp;FinSMEs</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="latest-funding-rounds-item">
+      <a href="#">
+        <img src="src/img/funding-img-2.jpeg" alt="investment logo">
+        <h4>Smart Wires Inc.</h4>
+        <div>
+          <h4>$75M</h4>
+          <h5>VENTURE CAPITAL</h5>
+        </div>
+      </a>
+      <div class="industry-company">
+        <div>
+          <a href="#">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="656.5 1056.5 16 16" id="tag--dark" x="976" y="976">
+                <path d="M661.231 1059.879c0-.373-.132-.691-.396-.955-.264-.265-.583-.396-.956-.396s-.692.132-.956.396a1.301 1.301 0 0 0-.396.955c0 .374.132.692.396.956s.583.396.956.396.691-.132.956-.396.396-.582.396-.956zm11.269 6.083c0 .374-.13.69-.391.951l-5.186 5.195a1.35 1.35 0 0 1-.961.392c-.373 0-.69-.131-.95-.392l-7.551-7.562c-.268-.26-.495-.615-.681-1.066-.187-.45-.28-.862-.28-1.235v-4.394a1.3 1.3 0 0 1 .401-.95c.268-.268.584-.401.951-.401h4.394c.373 0 .785.093 1.235.279.451.188.81.414 1.077.682l7.551 7.541c.261.274.391.595.391.96z"></path>
+              </svg>
+            </span>
+            <span>Manufacturing, +2</span>
+          </a>
+          <a href="#">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-239.5 160.5 16 16" id="briefcase--dark" x="48" y="48">
+                <path d="M-233.786 163.833h4.571v-1.166h-4.571v1.166zm10.286 5.833v4.374c0 .402-.141.744-.42 1.03-.28.285-.616.43-1.009.43h-13.144c-.393 0-.729-.145-1.009-.43s-.419-.628-.419-1.03v-4.374h6v1.459c0 .158.056.293.169.409a.545.545 0 0 0 .402.173h2.855a.545.545 0 0 0 .402-.173.565.565 0 0 0 .17-.409v-1.459h6.003zm-6.857 0v1.167h-2.285v-1.167h2.285zm6.857-4.373v3.498h-16v-3.498c0-.403.14-.745.419-1.032.28-.284.616-.429 1.009-.429h3.144v-1.457c0-.243.083-.449.25-.62a.822.822 0 0 1 .606-.255h5.144c.237 0 .439.086.606.255a.857.857 0 0 1 .249.62v1.457h3.145c.393 0 .729.145 1.009.429.278.287.419.63.419 1.032z"></path>
+              </svg>
+            </span>
+            <span>Lime Rock New Energy</span>
+          </a>
+        </div>
+
+        <div class="industry-company-funding">
+          <a href="#">Smart Wires Receives $75M in Growth Equity Financing
+            <span>on&nbsp;FinSMEs</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="latest-funding-rounds-item">
+      <a href="#">
+        <img src="src/img/funding-img-3.jpeg" alt="investment logo">
+        <h4>SkySpecs</h4>
+        <div>
+          <h4>$17M</h4>
+          <h5>SERIES C</h5>
+        </div>
+      </a>
+      <div class="industry-company">
+        <div>
+          <a href="#">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="656.5 1056.5 16 16" id="tag--dark" x="976" y="976">
+                <path d="M661.231 1059.879c0-.373-.132-.691-.396-.955-.264-.265-.583-.396-.956-.396s-.692.132-.956.396a1.301 1.301 0 0 0-.396.955c0 .374.132.692.396.956s.583.396.956.396.691-.132.956-.396.396-.582.396-.956zm11.269 6.083c0 .374-.13.69-.391.951l-5.186 5.195a1.35 1.35 0 0 1-.961.392c-.373 0-.69-.131-.95-.392l-7.551-7.562c-.268-.26-.495-.615-.681-1.066-.187-.45-.28-.862-.28-1.235v-4.394a1.3 1.3 0 0 1 .401-.95c.268-.268.584-.401.951-.401h4.394c.373 0 .785.093 1.235.279.451.188.81.414 1.077.682l7.551 7.541c.261.274.391.595.391.96z"></path>
+              </svg>
+            </span>
+            <span>Robotics, +2</span>
+          </a>
+          <a href="#">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-239.5 160.5 16 16" id="briefcase--dark" x="48" y="48">
+                <path d="M-233.786 163.833h4.571v-1.166h-4.571v1.166zm10.286 5.833v4.374c0 .402-.141.744-.42 1.03-.28.285-.616.43-1.009.43h-13.144c-.393 0-.729-.145-1.009-.43s-.419-.628-.419-1.03v-4.374h6v1.459c0 .158.056.293.169.409a.545.545 0 0 0 .402.173h2.855a.545.545 0 0 0 .402-.173.565.565 0 0 0 .17-.409v-1.459h6.003zm-6.857 0v1.167h-2.285v-1.167h2.285zm6.857-4.373v3.498h-16v-3.498c0-.403.14-.745.419-1.032.28-.284.616-.429 1.009-.429h3.144v-1.457c0-.243.083-.449.25-.62a.822.822 0 0 1 .606-.255h5.144c.237 0 .439.086.606.255a.857.857 0 0 1 .249.62v1.457h3.145c.393 0 .729.145 1.009.429.278.287.419.63.419 1.032z"></path>
+              </svg>
+            </span>
+            <span>Venture Investors, +7</span>
+          </a>
+        </div>
+
+        <div class="industry-company-funding">
+          <a href="#">SkySpecs Raises $17M in Series C Funding
+            <span>on&nbsp;FinSMEs</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="latest-funding-rounds-item">
+      <a href="#">
+        <img src="src/img/funding-img-4.jpeg" alt="investment logo">
+        <h4>AYLIEN</h4>
+        <div>
+          <h4>€5M</h4>
+          <h5>SSERIES A</h5>
+        </div>
+      </a>
+      <div class="industry-company">
+        <div>
+          <a href="#">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="656.5 1056.5 16 16" id="tag--dark" x="976" y="976">
+                <path d="M661.231 1059.879c0-.373-.132-.691-.396-.955-.264-.265-.583-.396-.956-.396s-.692.132-.956.396a1.301 1.301 0 0 0-.396.955c0 .374.132.692.396.956s.583.396.956.396.691-.132.956-.396.396-.582.396-.956zm11.269 6.083c0 .374-.13.69-.391.951l-5.186 5.195a1.35 1.35 0 0 1-.961.392c-.373 0-.69-.131-.95-.392l-7.551-7.562c-.268-.26-.495-.615-.681-1.066-.187-.45-.28-.862-.28-1.235v-4.394a1.3 1.3 0 0 1 .401-.95c.268-.268.584-.401.951-.401h4.394c.373 0 .785.093 1.235.279.451.188.81.414 1.077.682l7.551 7.541c.261.274.391.595.391.96z"></path>
+              </svg>
+            </span>
+            <span>Technology, +6</span>
+          </a>
+          <a href="#">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-239.5 160.5 16 16" id="briefcase--dark" x="48" y="48">
+                <path d="M-233.786 163.833h4.571v-1.166h-4.571v1.166zm10.286 5.833v4.374c0 .402-.141.744-.42 1.03-.28.285-.616.43-1.009.43h-13.144c-.393 0-.729-.145-1.009-.43s-.419-.628-.419-1.03v-4.374h6v1.459c0 .158.056.293.169.409a.545.545 0 0 0 .402.173h2.855a.545.545 0 0 0 .402-.173.565.565 0 0 0 .17-.409v-1.459h6.003zm-6.857 0v1.167h-2.285v-1.167h2.285zm6.857-4.373v3.498h-16v-3.498c0-.403.14-.745.419-1.032.28-.284.616-.429 1.009-.429h3.144v-1.457c0-.243.083-.449.25-.62a.822.822 0 0 1 .606-.255h5.144c.237 0 .439.086.606.255a.857.857 0 0 1 .249.62v1.457h3.145c.393 0 .729.145 1.009.429.278.287.419.63.419 1.032z"></path>
+              </svg>
+            </span>
+            <span>SOSV, +3</span>
+          </a>
+        </div>
+
+        <div class="industry-company-funding">
+          <a href="#">Irish AI-risk intelligence provider Aylien raises €5m
+            <span>on&nbsp;on the home of AI info</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</include>
+
+    <include src="./src/partials/categories.html"><div id="categories">
+  <div class="category-item">
+    <a class="category-item-title" href="#">Apps</a>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+      </svg>
+    </span>
+
+    <ul class="category-item-list">
+      <li class="category-item-list-popular" data-category-item-bg-image="./src/img/ToTok.jpg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(&quot;./src/img/ToTok.jpg&quot;);">
+        <article>
+          <header>
+            <h5>Most popular</h5>
+            <h3>
+              <a href="#">The UAE is reportedly spying on millions of ToTok messenger
+                users</a>
+            </h3>
+            <a href="#">Abhimanyu Ghoshal</a>
+            <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">11 hours ago</time>
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-latest">
+        <article>
+          <header>
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                US Navy officers can't use TikTok on government-issued phones
+                because it's a 'cybersecurity threat'
+              </h4>
+            </div>
+            <img src="src/img/tiktok.png" alt="TikTok">
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-rest">
+        Instagram influencers can no longer promote vaping, guns, or cigarettes
+      </li>
+      <li class="category-item-list-rest">
+        Your annual reminder that Facebook tracks you even with location
+        settings turned off
+      </li>
+      <li class="category-item-list-rest">
+        Facebook owns the four most popular apps of the decade
+      </li>
+      <li class="category-item-list-rest">
+        Microsoft wants devs to submit Chromium Edge add-ons ahead of its launch
+      </li>
+      <li class="category-item-list-rest">
+        Instagram's AI now warns you if your caption is offensive
+      </li>
+    </ul>
+  </div>
+
+  <div class="category-item">
+    <a class="category-item-title" href="#">Gear</a>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+      </svg>
+    </span>
+
+    <ul class="category-item-list">
+      <li class="category-item-list-popular" data-category-item-bg-image="./src/img/hqdefault.jpg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(&quot;./src/img/hqdefault.jpg&quot;);">
+        <article>
+          <header>
+            <h5>Most popular</h5>
+            <h3>
+              <a href="#">Uniqlo's new robots can pick up and pack t-shirts just like
+                human workers</a>
+            </h3>
+            <a href="#">Abhimanyu Ghoshal</a>
+            <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">11 hours ago</time>
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-latest">
+        <article>
+          <header>
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                9 things I learned building my first PC (that I wish I knew
+                before)
+              </h4>
+            </div>
+            <img src="src/img/learned-building-pc.jpg" alt="TikTok">
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-rest">
+        A love letter to my most loyal companion, the Fujifilm X100F
+      </li>
+      <li class="category-item-list-rest">
+        Review: Vankyo's MatrixPad Z10 is a budget-friendly tablet with a big,
+        bright screen
+      </li>
+      <li class="category-item-list-rest">
+        All I want for Xmas: A macOS Catalina Music app that doesn't suck
+      </li>
+      <li class="category-item-list-rest">
+        TNW Gifts: Speakers and headphones for audiophiles and music lovers
+      </li>
+      <li class="category-item-list-rest">
+        300-word review: The Sonos Move is a great (but pricey) wireless speaker
+      </li>
+    </ul>
+  </div>
+
+  <div class="category-item">
+    <a class="category-item-title" href="#">Tech</a>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+      </svg>
+    </span>
+
+    <ul class="category-item-list">
+      <li class="category-item-list-popular" data-category-item-bg-image="./src/img/cat-chess.jpg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(&quot;./src/img/cat-chess.jpg&quot;);">
+        <article>
+          <header>
+            <h5>Most popular</h5>
+            <h3>
+              <a href="#">Why your cat is lousy at chess yet way smarter than even the
+                most advanced AI</a>
+            </h3>
+            <a href="#">The Conversation</a>
+            <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">17 hours ago</time>
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-latest">
+        <article>
+          <header>
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                We forced an actual designer to review our writers' DIY article
+                images
+              </h4>
+            </div>
+            <img src="src/img/designer.png" alt="TikTok">
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-rest">
+        12 ear-tingling podcasts we LOVED in 2019
+      </li>
+      <li class="category-item-list-rest">
+        How birds drop ‘unnecessary’ genes can help us understand evolution
+      </li>
+      <li class="category-item-list-rest">
+        Why your cat is lousy at chess yet way smarter than even the most
+        advanced AI
+      </li>
+      <li class="category-item-list-rest">
+        Human art evades understanding so how will we ever ‘get’ machinic art?
+      </li>
+      <li class="category-item-list-rest">
+        How the digital revolution can tackle the climate crisis
+      </li>
+    </ul>
+  </div>
+
+  <div class="category-item">
+    <a class="category-item-title" href="#">Creative</a>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+      </svg>
+    </span>
+
+    <ul class="category-item-list">
+      <li class="category-item-list-popular" data-category-item-bg-image="./src/img/slam-button.png" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(&quot;./src/img/slam-button.png&quot;);">
+        <article>
+          <header>
+            <h5>Most popular</h5>
+            <h3><a href="#">How to design better buttons</a></h3>
+            <a href="#">Michal Malewicz</a>
+            <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">3 days ago</time>
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-latest">
+        <article>
+          <header>
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                Giphy debuts Arcade, a platform for making and playing
+                'microgames'
+              </h4>
+            </div>
+            <img src="src/img/Giphy-Arcade.jpg" alt="TikTok">
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-rest">
+        Microsoft's new font for devs is very aesthetically pleasing (and free)
+      </li>
+      <li class="category-item-list-rest">
+        How to build a production and recording studio that fits in a backpack
+      </li>
+      <li class="category-item-list-rest">
+        Watch: Disney’s new anti-vibration tech maps CGI movements onto actual
+        robots
+      </li>
+      <li class="category-item-list-rest">
+        [Best of 2019] Chinese vertical dramas made for phone viewing show the
+        future of mobile video
+      </li>
+      <li class="category-item-list-rest">
+        Sorry, but you can’t copyright a meme
+      </li>
+    </ul>
+  </div>
+
+  <div class="category-item">
+    <a class="category-item-title" href="#">Podium</a>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+      </svg>
+    </span>
+
+    <ul class="category-item-list">
+      <li class="category-item-list-popular" data-category-item-bg-image="./src/img/influencers.png" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(&quot;./src/img/influencers.png&quot;);">
+        <article>
+          <header>
+            <h5>Most popular</h5>
+            <h3>
+              <a href="#">Effective influencer marketing in 2020 will hinge on ‘creator’
+                direction</a>
+            </h3>
+            <a href="#">Aaron Brooks</a>
+            <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">2 days ago</time>
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-latest">
+        <article>
+          <header>
+            <div>
+              <h5>Latest</h5>
+              <h4>2020 will mark the death of the chatbot as we know it</h4>
+            </div>
+            <img src="src/img/roboto.png" alt="TikTok">
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-rest">
+        Why the 2020 streaming wars will be won by robots
+      </li>
+      <li class="category-item-list-rest">
+        2020 will see AI move from buzzwords to solutions
+      </li>
+      <li class="category-item-list-rest">
+        Best CBD gummies: your holiday guide to CBD
+      </li>
+      <li class="category-item-list-rest">
+        How binarized networks work — and why they’ll be big for AI in 2020
+      </li>
+      <li class="category-item-list-rest">
+        The shared economy comes to advertising
+      </li>
+    </ul>
+  </div>
+
+  <div class="category-item">
+    <a class="category-item-title" href="#">Insights</a>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+      </svg>
+    </span>
+
+    <ul class="category-item-list">
+      <li class="category-item-list-popular" data-category-item-bg-image="./src/img/sandwich-hacker.png" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(&quot;./src/img/sandwich-hacker.png&quot;);">
+        <article>
+          <header>
+            <h5>Most popular</h5>
+            <h3>
+              <a href="#">Here’s how law enforcement catches cryptocurrency criminals</a>
+            </h3>
+            <a href="#">Yessi Bello Perez</a>
+            <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">3 hours ago</time>
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-latest">
+        <article>
+          <header>
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                13 fun Bitcoin and blockchain tweets that epitomize this wild
+                industry
+              </h4>
+            </div>
+            <img src="src/img/bitcoin.jpg" alt="TikTok">
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-rest">
+        Greece suspends extradition of alleged launderer for Bitcoin 'stolen'
+        from Mt Gox
+      </li>
+      <li class="category-item-list-rest">
+        Hackers steal $480,000 worth of NULS cryptocurrency from its dev team
+      </li>
+      <li class="category-item-list-rest">
+        Moonday Mornings: Alleged billion-dollar Bitcoin launderer extradited to
+        France
+      </li>
+      <li class="category-item-list-rest">
+        2019's juiciest crypto drama: The saga of OneCoin’s $4B ‘cryptocurrency’
+        scam
+      </li>
+      <li class="category-item-list-rest">
+        Bitcoin and blockchain books for every reading level — from baby to big
+        brain
+      </li>
+    </ul>
+  </div>
+
+  <div class="category-item">
+    <a class="category-item-title" href="#">Launch</a>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+      </svg>
+    </span>
+
+    <ul class="category-item-list">
+      <li class="category-item-list-popular" data-category-item-bg-image="./src/img/Amazon-Prime-Fresh.jpg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(&quot;./src/img/Amazon-Prime-Fresh.jpg&quot;);">
+        <article>
+          <header>
+            <h5>Most popular</h5>
+            <h3>
+              <a href="#">PSA: Amazon Fresh grocery deliveries are now free for US Prime
+                members</a>
+            </h3>
+            <a href="#">Abhimanyu Ghoshal</a>
+            <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">11 hours ago</time>
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-latest">
+        <article>
+          <header>
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                Alexis Ohanian and Serj Tankian team up to help build a social
+                network for Armenia
+              </h4>
+            </div>
+            <img src="src/img/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg" alt="TikTok">
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-rest">
+        Google Assistant gets its own phone number in India
+      </li>
+      <li class="category-item-list-rest">
+        Pam and Angela from The Office are re-watching the show for their new
+        podcast
+      </li>
+      <li class="category-item-list-rest">
+        Bethesda wants you to test its game streaming tech with DOOM on iOS this
+        year
+      </li>
+      <li class="category-item-list-rest">
+        Mozilla rolls out new automated crypto-jacking filtering in Firefox
+      </li>
+      <li class="category-item-list-rest">
+        Google announces Stadia, its cross-platform game streaming service
+      </li>
+    </ul>
+  </div>
+
+  <div class="category-item">
+    <a class="category-item-title" href="#">Distract</a>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+      </svg>
+    </span>
+
+    <ul class="category-item-list">
+      <li class="category-item-list-popular" data-category-item-bg-image="./src/img/designer2.png" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(&quot;./src/img/designer2.png&quot;);">
+        <article>
+          <header>
+            <h5>Most popular</h5>
+            <h3>
+              <a href="#">We forced an actual designer to review our writers' DIY article
+                images</a>
+            </h3>
+            <a href="#">Callum Booth</a>
+            <time datetime="2019-12-23T08:58:45+00:00" data-full-date="Dec 23, 2019 - 03:58">7 hours ago</time>
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-latest">
+        <article>
+          <header>
+            <div>
+              <h5>Latest</h5>
+              <h4>
+                Over a decade later, I'm still fascinated by Techno Viking
+              </h4>
+            </div>
+            <img src="src/img/techno-viking-technoviking.jpg" alt="TikTok">
+          </header>
+        </article>
+      </li>
+
+      <li class="category-item-list-rest">
+        You can now stream every Radiohead album for free on YouTube
+      </li>
+      <li class="category-item-list-rest">
+        Just putting it out there: Ban Wi-Fi on airplanes
+      </li>
+      <li class="category-item-list-rest">
+        6 cheesy life lessons that playing Bejeweled taught me
+      </li>
+      <li class="category-item-list-rest">
+        All I want for Christmas: A custom username for each subreddit
+      </li>
+      <li class="category-item-list-rest">
+        We watched almost 13 billion hours of live streams in 2019
+      </li>
+    </ul>
+  </div>
+</div>
+</include>
+
+    <include src="./src/partials/deals.html"><section id="deals">
+  <header class="deals-header">
+    <h2>
+      <a href="#">Latest deals</a>
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+          <path fill="none" stroke="#F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"></path>
+        </svg>
+      </span>
+    </h2>
+    <a class="deals-header-more" href="#">See all Deals </a>
+  </header>
+  <ul class="deals-story-group">
+    <li>
+      <div class="deals-story">
+        <a href="#" class="story-image-1"></a>
+        <div class="story-discount">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path fill="#FC0" d="M80 0H0l80 80"></path>
+          </svg>
+          <div>98% off</div>
+        </div>
+        <h4 class="story-title">
+          <a href="#">Seobility All-In-One SEO Software &amp; Tools: Lifetime Subscription</a>
+        </h4>
+        <div class="story-deal-price">
+          <span class="story-dealPrice-old">$1890</span>
+          <span class="story-dealPrice-new">$29</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="deals-story">
+        <a href="#" class="story-image-2"></a>
+        <div class="story-discount-hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path fill="#FC0" d="M80 0H0l80 80"></path>
+          </svg>
+          <div>98% off</div>
+        </div>
+        <h4 class="story-title">
+          <a href="#">Learn How to Draw Freebie Bundle</a>
+        </h4>
+        <div class="story-deal-price">
+          <span class="story-dealPrice-old">$0</span>
+          <span class="story-dealPrice-new">$0</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="deals-story">
+        <a href="#" class="story-image-3"></a>
+        <div class="story-discount">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path fill="#FC0" d="M80 0H0l80 80"></path>
+          </svg>
+          <div>95% off</div>
+        </div>
+        <h4 class="story-title">
+          <a href="#">SERPstash Premium: Lifetime Subscription</a>
+        </h4>
+        <div class="story-deal-price">
+          <span class="story-dealPrice-old">$500</span>
+          <span class="story-dealPrice-new">$24</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="deals-story">
+        <a href="#" class="story-image-4"></a>
+        <div class="story-discount">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path fill="#FC0" d="M80 0H0l80 80"></path>
+          </svg>
+          <div>92% off</div>
+        </div>
+        <h4 class="story-title">
+          <a href="#">12min Micro Book Library: Lifetime Premium Subscription</a>
+        </h4>
+        <div class="story-deal-price">
+          <span class="story-dealPrice-old">$346.50</span>
+          <span class="story-dealPrice-new">$29</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="deals-story">
+        <a href="#" class="story-image-5"></a>
+        <div class="story-discount">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path fill="#FC0" d="M80 0H0l80 80"></path>
+          </svg>
+          <div>98% off</div>
+        </div>
+        <h4 class="story-title">
+          <a href="#">The Premium 2020 Learn to Code Certification Bundle</a>
+        </h4>
+        <div class="story-deal-price">
+          <span class="story-dealPrice-old">$2700</span>
+          <span class="story-dealPrice-new">$45</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="deals-story">
+        <a href="#" class="story-image-6"></a>
+        <div class="story-discount">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path fill="#FC0" d="M80 0H0l80 80"></path>
+          </svg>
+          <div>98% off</div>
+        </div>
+        <h4 class="story-title">
+          <a href="#">Zuitte 50+ Tools for Entrepreneurs: Lifetime Subscription</a>
+        </h4>
+        <div class="story-deal-price">
+          <span class="story-dealPrice-old">$9480</span>
+          <span class="story-dealPrice-new">$199</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="deals-story">
+        <a href="#" class="story-image-7"></a>
+        <div class="story-discount">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path fill="#FC0" d="M80 0H0l80 80"></path>
+          </svg>
+          <div>83% off</div>
+        </div>
+        <h4 class="story-title">
+          <a href="#">KeepSolid SmartDNS: Lifetime Subscription</a>
+        </h4>
+        <div class="story-deal-price">
+          <span class="story-dealPrice-old">$239.40</span>
+          <span class="story-dealPrice-new">$39.99</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="deals-story">
+        <a href="#" class="story-image-8"></a>
+        <div class="story-discount">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path fill="#FC0" d="M80 0H0l80 80"></path>
+          </svg>
+          <div>50% off</div>
+        </div>
+        <h4 class="story-title">
+          <a href="#">Matt's Flights Premium Subscriptions</a>
+        </h4>
+        <div class="story-deal-price">
+          <span class="story-dealPrice-old">$49.99</span>
+          <span class="story-dealPrice-new">$25</span>
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>
+</include>
+
+    <include src="./src/partials/footer.html"><footer class="footer">
+  <div class="footer-social-links">
+    <ul>
+      <li>
+        <a href="#">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="facebook--light" x="272" y="272">
+              <path fill="#FFF" d="M8.5 993.5v14c0 .547-.453 1-1 1h-4v-6.219h2l.336-2.305H3.5v-1.812c0-.656.336-1.031 1-1.031H6v-2.078s-.672-.109-1.641-.109c-2.195 0-3.305 1.219-3.305 3.039v1.992h-2v2.305h2v6.219H-6.5c-.547 0-1-.453-1-1v-14c0-.547.453-1 1-1h14c.547-.001 1 .452 1 .999z"></path>
+            </svg>
+          </span>
+          &gt;</a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="twitter--light" x="1024" y="1024">
+              <path fill="#FFF" d="M6.867 997.234v.43c0 4.336-3.297 9.336-9.328 9.336-1.852 0-3.594-.406-5.039-1.336.258.039.516.055.781.055 1.531 0 2.961-.664 4.07-1.555-1.422-.016-2.648-.984-3.055-2.281a3.227 3.227 0 0 0 1.484-.055 3.28 3.28 0 0 1-2.633-3.219v-.039c.445.242.945.391 1.484.406a3.266 3.266 0 0 1-1.469-2.719c0-.609.172-1.109.445-1.594 1.633 1.984 4.039 3.219 6.758 3.367a3.4 3.4 0 0 1-.07-.758 3.267 3.267 0 0 1 3.273-3.273c.945 0 1.797.406 2.414 1.031a6.571 6.571 0 0 0 2.07-.797 3.252 3.252 0 0 1-1.445 1.82 6.42 6.42 0 0 0 1.891-.523 6.587 6.587 0 0 1-1.631 1.704z"></path>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="youtube--light" x="1280" y="1280">
+              <path fill="#FFF" d="M8.5 1000.5c0 5.664 0 5.664-8 5.664s-8 0-8-5.664 0-5.664 8-5.664 8 0 8 5.664zm-5 0l-5-3v6l5-3z"></path>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="instagram--light" x="416" y="416">
+              <path fill="#FFF" d="M8.5 994.836v11.328a2.337 2.337 0 0 1-2.336 2.336H-5.164a2.337 2.337 0 0 1-2.336-2.336v-11.328a2.337 2.337 0 0 1 2.336-2.336H6.164a2.337 2.337 0 0 1 2.336 2.336zM6.836 999.5H5.062c.07.32.102.656.102 1 0 2.578-2.086 4.664-4.664 4.664s-4.664-2.086-4.664-4.664c0-.344.031-.68.102-1h-1.773v7c0 .188.148.336.336.336h12a.333.333 0 0 0 .336-.336v-7zm-9.336 1a3.001 3.001 0 0 0 6 0 3.001 3.001 0 0 0-6 0zm9.336-6a.333.333 0 0 0-.336-.336h-2a.333.333 0 0 0-.336.336v2c0 .188.148.336.336.336h2a.333.333 0 0 0 .336-.336v-2z"></path>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="pinterest--light" x="672" y="672">
+              <path fill="#FFF" d="M6.688 997.759c0 3.609-2.001 6.297-4.946 6.297-1 0-1.93-.516-2.258-1.125 0 0-.523 2.109-.648 2.516-.391 1.445-1.555 2.891-1.649 3-.078.094-.203.055-.227-.038-.016-.188-.312-2.017.039-3.501.164-.742 1.164-5 1.164-5s-.273-.594-.273-1.461c0-1.376.773-2.376 1.757-2.376.836 0 1.243.617 1.243 1.376 0 .835-.539 2.094-.821 3.258-.219.984.5 1.781 1.469 1.781 1.742 0 2.906-2.242 2.906-4.891 0-2.024-1.352-3.524-3.813-3.524-2.796 0-4.539 2.079-4.539 4.391 0 .82.243 1.376.61 1.821.164.203.188.273.132.5-.039.18-.148.586-.188.733-.055.243-.242.321-.461.243-1.281-.539-1.875-1.945-1.875-3.516 0-2.609 2.188-5.743 6.555-5.743 3.526 0 5.823 2.54 5.823 5.259z"></path>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="rss--light" x="816" y="816">
+              <g fill="#FFF">
+                <circle cx="-5.5" cy="1006.5" r="2"></circle>
+                <path d="M-7.5 995.5c7.2 0 13 5.8 13 13h3c0-8.8-7.2-16-16-16v3zm0 3v3c3.9 0 7 3.101 7 7h3c0-5.5-4.5-10-10-10z"></path>
+              </g>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-7.5 992.5 16 16" id="mail--light" x="576" y="576">
+              <path fill="#FFF" d="M.5 1001.5l-8-6c0-.555.446-1 1-1h14c.554 0 1 .445 1 1l-8 6zm0 1.798l8-6.001v8.203c0 .555-.446 1-1 1h-14c-.554 0-1-.445-1-1v-8.203l8 6.001z"></path>
+            </svg>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer-page-links">
+    <ul>
+      <li>
+        <a href="#">Events</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Team</a>
+      </li>
+      <li>
+        <a href="#">Advertise</a>
+      </li>
+      <li>
+        <a href="#">Jobs</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer-legal">
+    <div class="wrapper">
+      <span>
+        <a class="footer-legal-logoTNW" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 16">
+            <path fill="#FFF" d="M34 16h-6v-5.2c0-.7-.3-1.3-.7-1.8L25 6.7c-.5-.4-1.1-.7-1.8-.7H22v10h-6V0h8.7c1.3 0 2.6.5 3.5 1.5l4.3 4.3c1 .9 1.5 2.2 1.5 3.5V16zM60 0v5.2c0 .7-.3 1.3-.7 1.8L57 9.3c-.5.5-1.1.7-1.8.7h-2.5c.8-.9 1.3-2.1 1.3-3.3V0h-6v5.2c0 .7-.3 1.3-.7 1.8L45 9.3c-.5.5-1.1.7-1.8.7H42V0h-6v16h8.7c1.3 0 2.6-.5 3.5-1.5l2.8-2.8V16h5.7c1.3 0 2.6-.5 3.5-1.5l4.3-4.3c1-.9 1.5-2.2 1.5-3.5V0h-6zM14 0H0v6h4v10h6V6h4"></path>
+          </svg>
+        </a>
+        © 2006–2019 The Next Web B.V.
+      </span>
+      <span> Made with <strong>♥</strong> in Amsterdam. </span>
+      <span>
+        Powered by
+        <a href="#" class="footer-logostackPath">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 174 24">
+            <linearGradient id="a">
+              <stop offset=".056" stop-color="#fff"></stop>
+              <stop offset="1" stop-color="#fff" stop-opacity=".2"></stop>
+            </linearGradient>
+            <linearGradient id="b" x1="58.064" x2="43.843" y1="15.344" y2="10.168" gradientUnits="userSpaceOnUse" xlink:href="#a"></linearGradient>
+            <linearGradient id="c" x1="135.723" x2="121.502" y1="15.344" y2="10.168" gradientUnits="userSpaceOnUse" xlink:href="#a"></linearGradient>
+            <path fill="#fff" d="M73.379 15.362l.03.092c-.102 2.639-.876 4.651-2.322 6.043-1.446 1.39-3.544 2.085-6.292 2.085-2.759 0-5.004-.855-6.73-2.565-1.728-1.709-2.59-3.93-2.59-6.658V9.663c0-2.721.829-4.936 2.489-6.653 1.661-1.714 3.82-2.572 6.478-2.572 2.82 0 4.977.717 6.468 2.148 1.493 1.431 2.336 3.467 2.53 6.103l-.031.093h-5.043c-.071-1.462-.396-2.55-.973-3.26-.579-.711-1.562-1.066-2.951-1.066-1.176 0-2.101.476-2.775 1.429-.674.954-1.011 2.202-1.011 3.746v4.729c0 1.555.368 2.812 1.104 3.769.736.958 1.748 1.437 3.036 1.437 1.246 0 2.13-.334 2.651-1.005.522-.669.819-1.734.891-3.198h5.041zm-60.192 1.913c0-.793-.261-1.406-.781-1.839-.521-.432-1.457-.89-2.806-1.375-2.82-.896-4.91-1.855-6.269-2.882-1.359-1.024-2.039-2.505-2.039-4.441 0-1.885.809-3.41 2.43-4.573C5.342 1 7.397.418 9.892.418c2.473 0 4.499.641 6.078 1.923 1.578 1.282 2.342 2.934 2.291 4.952l-.031.093h-5.027c0-.895-.302-1.626-.906-2.186-.603-.561-1.435-.842-2.499-.842-1.042 0-1.86.232-2.453.696-.591.463-.887 1.034-.887 1.714 0 .66.298 1.188.896 1.585.599.396 1.719.893 3.364 1.491 2.535.762 4.444 1.699 5.726 2.811s1.923 2.643 1.923 4.589c0 1.977-.763 3.525-2.291 4.643-1.527 1.117-3.554 1.676-6.078 1.676-2.535 0-4.726-.641-6.575-1.923-1.85-1.283-2.75-3.13-2.698-5.539l.031-.093h5.043c0 1.297.347 2.225 1.042 2.78.695.557 1.748.834 3.158.834 1.074 0 1.872-.216 2.4-.648.525-.433.788-1 .788-1.699M19.577.567v4.449h6.108V23.37h4.638V5.016h6.07V.567zm111.052 0v4.449h6.108V23.37h4.638V5.016h6.07V.567zm32.162 0v9.161h-7.543V.567h-4.599V23.37h4.599v-9.197h7.543v9.197h4.599V.567zm-61.016 14.982v7.815h-5.268V.561h8.477c2.683 0 4.812.692 6.387 2.076 1.574 1.384 2.362 3.192 2.362 5.427 0 2.244-.789 4.054-2.362 5.426-1.575 1.374-3.704 2.06-6.387 2.06h-3.209zm0-4.071h3.209c1.14 0 2.007-.315 2.603-.947.596-.631.894-1.443.894-2.434 0-1.014-.298-1.843-.894-2.492-.595-.646-1.462-.97-2.603-.97h-3.209zm-8.469 10.823c-2.66-3.08-6.816-7.855-8.989-10.408l8.989-10.445V.567h-5.217c-2.413 2.851-4.79 5.589-7.203 8.436V.567h-4.6V23.37h4.6v-8.437l7.24 8.437h5.181v-1.069zm26.6-21.735l-7.844 22.803h4.902L124.997.566zm-77.659 0l-7.845 22.803h4.902L47.337.566z"></path>
+            <path fill="url(#b)" d="M47.337.567l-2.454 6.966 2.454 7.021H42.41l-1.566 4.444h7.888l1.508 4.371h4.903z"></path>
+            <path fill="url(#c)" d="M124.996.567l-2.454 6.966 2.454 7.021h-4.927l-1.565 4.444h7.888l1.507 4.371h4.903z"></path>
+            <path fill="#fff" d="M170.618.945h-.696V2.84h-.469V.945h-.688v-.38h1.853zm.879-.38l.584 1.649.581-1.649h.615v2.274h-.47v-.621l.047-1.073-.614 1.695h-.321l-.612-1.693.047 1.072v.622h-.469V.565z" opacity=".5"></path>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+</include>
+
+    <script src="./src/main.js"></script>
+  
+
+</body></html>

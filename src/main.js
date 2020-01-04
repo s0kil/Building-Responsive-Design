@@ -1,10 +1,10 @@
-(() => {
+function main() {
   // Load Category List Images
   let categoriesListItem = [
     ...document.getElementsByClassName("category-item-list-popular")
   ];
   categoriesListItem.forEach(listItem => {
-    let categoryItemBgImage = listItem.dataset.categoryItemBgimage;
+    let categoryItemBgImage = listItem.dataset.categoryItemBgImage;
     if (categoryItemBgImage !== undefined) {
       listItem.style.backgroundImage = `linear-gradient(
       to bottom,
@@ -29,4 +29,7 @@
   } else {
     nav.id = "nav-sticky";
   }
-})();
+}
+
+// Wait For All Content To Load
+// window.addEventListener("load", main);
