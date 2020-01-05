@@ -1,3 +1,10 @@
+/*
+This Script Will Start A Local Static File Server
+And Open Chrome Browser In Headless Mode To Capture
+The JavaScript Rendered DOM Then Save It
+To A Local File As `index-full.html`
+*/
+
 let fs = require("fs");
 let path = require("path");
 let sirv = require("sirv");

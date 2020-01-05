@@ -6,6 +6,12 @@
 @import "./partials/deals.css";
 @import "./partials/footer.css";
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   font-family: "ARS Maquette", Helvetica Neue, Arial, sans-serif;
   font-size: 14px;
