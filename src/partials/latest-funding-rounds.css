@@ -4,8 +4,6 @@
   --itemWidth: 270px;
 }
 
-
-
 .funding-wrap {
   display: flex;
   width: 100%;
@@ -159,8 +157,7 @@
   #latest-funding-rounds {
     width: 100%;
     max-width: 98vw;
-    --itemWidth:100%;
-
+    --itemWidth: 100%;
   }
 
   #latest-funding-heading {
@@ -200,7 +197,6 @@
     align-items: center;
   }
 
-  
   .latest-funding-rounds-item {
     margin-bottom: 10px;
     margin-top: 10px;

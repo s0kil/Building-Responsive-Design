@@ -1,14 +1,6 @@
 {
   "name": "building-responsive-design",
   "description": "The Next Web Clone",
-  "scripts": {
-    "renderHtml": "node tools/renderHTML.js"
-  },
-  "devDependencies": {
-    "polka": "^0.5.2",
-    "puppeteer-core": "^2.0.0",
-    "sirv": "^0.4.2"
-  },
   "dependencies": {
     "modern-normalize": "^0.6.0"
   }

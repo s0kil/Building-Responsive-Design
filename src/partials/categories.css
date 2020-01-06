@@ -39,7 +39,6 @@
   #categories {
     flex-direction: column;
     max-width: 100vw;
- 
   }
 
   #categories .category-item {
@@ -135,17 +134,14 @@
   width: 4px;
 }
 
-@media screen and (max-device-width: 760px){
+@media screen and (max-device-width: 760px) {
   .category-item {
     padding-top: 10px;
     padding-bottom: 10px;
-
   }
-
 
   .category-item-list li {
     background-size: cover;
-
   }
 
   .category-item-list li article {
