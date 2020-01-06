@@ -202,3 +202,20 @@
     margin-top: 10px;
   }
 }
+
+
+@media screen and (min-device-width: 761px) and (max-device-width: 1023px) {
+
+  .funding-wrap {
+    flex-wrap: wrap;
+  }
+  .latest-funding-rounds-item {
+    --itemWidth: 100%;
+    flex-basis: 32%;
+  }
+
+  .latest-funding-rounds-item:nth-child(4) {
+    display: none;
+  }
+
+}

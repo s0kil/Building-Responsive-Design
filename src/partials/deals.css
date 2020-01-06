@@ -260,3 +260,16 @@
     font-size: 0.6rem;
   }
 }
+
+
+@media screen and (min-device-width: 761px) and (max-device-width: 1023px) {
+
+  .deals-story-group {
+    justify-content: end;
+    padding: 0 10px;
+  }
+  
+  .deals-story-group li {
+    flex-basis: 33.0%;
+   }
+}

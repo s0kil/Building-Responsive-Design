@@ -100,3 +100,21 @@
     font-size: 0.7rem;
   }
 }
+
+@media screen and (min-device-width: 761px) and (max-device-width: 1023px) {
+
+#latest-news .latest-news-item {
+  --width: 100%;
+  flex-basis: 33%;
+  padding: 12px;
+}
+
+#latest-news .latest-news-item img {
+  height: 180px;
+}
+
+#latest-news div {
+  justify-content: start;
+}
+
+}

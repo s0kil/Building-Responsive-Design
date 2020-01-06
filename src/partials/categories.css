@@ -166,3 +166,26 @@
     background-size: contain;
   }
 }
+
+@media screen and (min-device-width: 761px) and (max-device-width: 1023px){ 
+
+
+  #categories .category-item {
+    margin: 10px 5px 60px 5px;
+    --size: 50vw;
+    width: calc(var(--size) + 100px);
+    flex-basis: 48%;
+  }
+
+  .category-item-list-popular {
+    height: var(--size);
+    width: 100%;
+    position: relative;
+    background-size: contain;
+  }
+
+  #categories {
+    justify-content: space-around;
+  }
+
+}

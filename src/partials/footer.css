@@ -121,3 +121,13 @@ footer {
     display: block;
   }
 }
+
+@media screen and (min-device-width: 761px)  {
+  footer {
+    width: 74.5rem;
+    margin: 0 auto;
+    line-height: 1.5rem;
+  }
+}
+
+
