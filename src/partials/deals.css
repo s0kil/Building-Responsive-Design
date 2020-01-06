@@ -4,8 +4,7 @@
   padding-bottom: 100px;
 }
 
-@media screen and (max-device-width: 320px),
-  screen and (max-device-width: 375px) {
+@media screen and (max-device-width: 760px) {
   #deals {
     width: 100%;
   }
@@ -211,8 +210,7 @@
   display: none;
 }
 
-@media screen and (max-device-width: 320px),
-  screen and (max-device-width: 375px) {
+@media screen and (max-device-width: 760px) {
   #deals header {
     padding: 0 5px;
   }

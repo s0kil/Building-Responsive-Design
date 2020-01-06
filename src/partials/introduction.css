@@ -9,7 +9,6 @@
   flex-basis: 66.6%;
   position: relative;
   padding: 3px;
-  /*   height: 60vh; */
 }
 
 .main-article-img {
@@ -91,8 +90,7 @@
   height: 0.75rem;
 }
 
-@media screen and (max-device-width: 320px),
-  screen and (max-device-width: 375px) {
+@media screen and (max-device-width: 760px) {
   #introduction {
     flex-direction: column;
     min-height: 100vh;
@@ -122,6 +120,7 @@
       url(../img/main-article-img.jpg);
   }
 }
+
 
 /*
 Side Articles
@@ -212,8 +211,7 @@ Side Articles
   height: 0.75rem;
 }
 
-@media screen and (max-device-width: 320px),
-  screen and (max-device-width: 375px) {
+@media screen and (max-device-width: 760px) {
   .cover-heading h2,
   .side-heading h2 {
     font-size: 1.4rem;

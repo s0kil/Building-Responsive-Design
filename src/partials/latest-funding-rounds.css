@@ -1,7 +1,10 @@
 #latest-funding-rounds {
   margin: 30px auto 0 auto;
   width: 74rem;
+  --itemWidth: 270px;
 }
+
+
 
 .funding-wrap {
   display: flex;
@@ -48,11 +51,11 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 270px;
+  width: var(--itemWidth);
 }
 
 .latest-funding-rounds-item a {
-  width: 270px;
+  width: var(--itemWidth);
 }
 
 .latest-funding-rounds-item a > h4 {
@@ -152,11 +155,12 @@
   color: #aaa;
 }
 
-@media screen and (max-device-width: 320px),
-  screen and (max-device-width: 375px) {
+@media screen and (max-device-width: 760px) {
   #latest-funding-rounds {
     width: 100%;
-    max-width: 100vh;
+    max-width: 98vw;
+    --itemWidth:100%;
+
   }
 
   #latest-funding-heading {
@@ -196,6 +200,7 @@
     align-items: center;
   }
 
+  
   .latest-funding-rounds-item {
     margin-bottom: 10px;
     margin-top: 10px;

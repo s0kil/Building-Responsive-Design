@@ -84,8 +84,7 @@ footer {
   vertical-align: baseline;
 }
 
-@media screen and (max-device-width: 320px),
-  screen and (max-device-width: 375px) {
+@media screen and (max-device-width: 760px){
   footer .footer-social-links ul li:nth-child(6) {
     display: none;
   }
