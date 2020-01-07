@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@s0kill](https://github.com/s0kil/)
 
-👤 Carlos
+👤 Carlos Anriquez
 
 - Github: [@canriquez](https://github.com/canriquez)
 
