@@ -1,0 +1,264 @@
+nav .main-navigation .sitemap-links,
+nav .main-navigation .nav-company-links {
+  line-height: var(--height);
+}
+
+nav {
+  height: 80px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background: #fff;
+}
+
+.nav-logo:hover .nav-popout {
+  display: block;
+}
+
+.nav-popout {
+  display: none;
+  background: rgba(0, 0, 0, 0.95);
+  position: absolute;
+  left: 0;
+  width: 106px;
+  z-index: 10;
+}
+
+.nav-popout li {
+  text-align: center;
+  line-height: 19px;
+  padding: 6px 0;
+}
+
+.nav-popout li:hover a {
+  color: rgb(255, 255, 255);
+}
+
+.nav-popout a {
+  font-size: 13px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.nav-logo {
+  display: none;
+}
+
+.nav-logo > a {
+  height: 48px;
+  width: 106px;
+  display: block;
+  padding: 16px 22px;
+  background: #f42;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+}
+
+.nav-logo > a:hover {
+  background-image: url("../img/home.gif");
+  background-size: cover;
+  background-position: 50%;
+}
+
+.nav-logo svg {
+  height: 16px;
+  width: 66px;
+}
+
+nav .main-navigation {
+  --height: 32px;
+  --bgColor: #131313;
+
+  height: var(--height);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.2rem;
+  background-color: var(--bgColor);
+}
+
+nav .main-navigation a:hover {
+  color: rgb(255, 255, 255);
+}
+
+nav .main-navigation ul li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+nav .main-navigation ul li a {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+nav .main-navigation ul li #active {
+  color: rgb(255, 255, 255);
+}
+
+nav .main-navigation .dropdown-menu-toggle:hover > .dropdown-menu {
+  z-index: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+nav .main-navigation .dropdown-menu a {
+  padding: 0 0.8rem;
+}
+
+nav .main-navigation .dropdown-menu li:nth-child(odd) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav .main-navigation .dropdown-menu {
+  position: absolute;
+  top: var(--height);
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bgColor);
+  z-index: -1;
+  visibility: hidden;
+  transform: translateY(calc(var(--height) / 2));
+  transition: transform 200ms ease-in 0s;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-section {
+  display: flex;
+}
+
+.nav-sections ul li {
+  display: inline-block;
+}
+
+.nav-sections ul li a {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  display: block;
+  height: 48px;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 18px 10px 0;
+}
+
+.nav-sections ul li a:first-child {
+  padding-left: 20px;
+}
+
+.nav-icons {
+  display: block;
+  height: 48px;
+  width: 48px;
+  opacity: 0.6;
+  border-left: 1px solid gray;
+}
+
+.nav-icons span {
+  display: block;
+  padding: 16px;
+}
+
+@media screen and (max-width: 760px) {
+  nav {
+    height: 48px;
+  }
+
+  nav .nav-sections,
+  nav .nav-company-links,
+  nav .main-navigation {
+    display: none;
+  }
+
+  #nav-sticky {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .nav-logo {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1023px) {
+  nav {
+    height: 48px;
+    max-width: 74rem;
+  }
+
+  nav .main-navigation {
+    display: none;
+  }
+
+  .nav-logo {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav {
+    height: 80px;
+    min-width: 100%;
+    margin: 0 auto;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #introduction {
+    margin-top: 35px !important;
+  }
+
+  .nav-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(48px + 32px);
+  }
+
+  nav .nav-items,
+  nav .main-navigation {
+    position: absolute;
+    right: 0;
+    width: calc(100vw - (48px * 2));
+  }
+
+  nav .main-navigation {
+    display: block;
+  }
+
+  .nav-logo,
+  .nav-items,
+  .main-navigation {
+    z-index: 100;
+  }
+
+  .main-navigation {
+    top: 0;
+  }
+
+  .nav-items {
+    right: 0;
+    top: 32px;
+    background: #fff;
+  }
+
+  .nav-logo a {
+    padding: 0;
+    padding-left: 15px;
+  }
+
+  .nav-logo a,
+  .nav-logo svg {
+    height: calc(48px + 32px);
+  }
+}

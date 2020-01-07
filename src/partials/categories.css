@@ -1,0 +1,139 @@
+#categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto 0 auto;
+  max-width: 74rem;
+}
+
+#categories .category-item {
+  margin: 12px;
+}
+
+#categories header h5 {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: Shentox, sans-serif;
+}
+
+.category-item .category-item-title {
+  display: inline-block;
+  color: #f42;
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  font-family: Avalon, sans-serif;
+}
+
+#categories span svg {
+  width: 16px;
+  height: 16px;
+}
+
+.category-item-list-popular article {
+  position: absolute;
+  bottom: 0;
+  padding: 14px;
+  z-index: 10;
+}
+
+.category-item-list-popular header h3 {
+  margin: 0 0 6px 0;
+  font-size: 20px;
+}
+
+.category-item-list-popular header,
+.category-item-list-popular header a {
+  color: #fff;
+}
+
+.category-item-list-popular header > a,
+.category-item-list-popular header > time {
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.category-item-list-popular header > a::after {
+  content: "\B7";
+  margin-left: 4px;
+}
+
+.category-item-list-latest {
+  margin: 2px 0;
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
+.category-item-list-latest header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-item-list-latest header div {
+  padding: 14px 10px 0 14px;
+}
+
+.category-item-list-latest header h5,
+.category-item-list-latest header h4 {
+  color: #f42;
+}
+
+.category-item-list-latest header h4 {
+  margin: 0;
+  font-size: 14px;
+  max-height: 56px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+}
+
+.category-item-list-latest img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.category-item-list-rest {
+  font-size: 13px;
+  line-height: 20px;
+  position: relative;
+  color: rgb(85, 85, 85);
+  padding: 6px 0 6px 14px;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.1);
+}
+
+.category-item-list-rest::before {
+  content: "";
+  background-color: #f42;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 0;
+  height: 4px;
+  width: 4px;
+}
+
+.category-item-list-popular {
+  padding-top: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+  .category-item {
+    flex: 1;
+    min-width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .category-item {
+    flex: 1;
+
+    /* Subtract item from (item + container margin) */
+    flex-basis: calc(33% - 21px);
+    flex-grow: 0;
+  }
+}

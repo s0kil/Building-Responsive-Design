@@ -1,57 +1,45 @@
-# Project Name
+# Building with Responsive Design
 
-> One paragraph statement about the project.
+> This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
+
+[Original Page](https://thenextweb.com/)
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+The project uses flex and media queries to gracefully degrade their site as the window size is reduced.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
+- JS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://s0kil.github.io/Building-Responsive-Design/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Git clone reposotory
 
-### Setup
+### Enjoy
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 Daniel Sokil
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@s0kill](https://github.com/s0kil/)
 
-👤 **Author2**
+👤 Carlos
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@canriquez](https://github.com/canriquez)
 
 ## 🤝 Contributing
 
@@ -65,10 +53,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.

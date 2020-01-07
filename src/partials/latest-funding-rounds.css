@@ -1,0 +1,223 @@
+#latest-funding-rounds {
+  margin: 30px auto 0 auto;
+  max-width: 74rem;
+
+  --itemWidth: 270px;
+}
+
+@media screen and (max-width: 74rem) {
+  #latest-funding-rounds {
+    --itemWidth: calc((100vw / 4 - 30px));
+  }
+}
+
+.funding-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#latest-funding-heading {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+}
+
+#latest-funding-heading h2 span svg {
+  width: 16px;
+  height: 16px;
+}
+
+#latest-funding-heading h2 {
+  color: #f42;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-family: Avalon, sans-serif;
+}
+
+#latest-funding-heading a {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #f42;
+  text-decoration: none;
+}
+
+.dash-menu::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.latest-funding-rounds-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: var(--itemWidth);
+}
+
+.latest-funding-rounds-item a {
+  width: var(--itemWidth);
+}
+
+.latest-funding-rounds-item a > h4 {
+  background-color: #f42;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 10px 16px 10px 84px;
+  margin: 0;
+}
+
+.latest-funding-rounds-item a > div {
+  padding: 10px 16px 10px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+}
+
+.latest-funding-rounds-item a > div > h4 {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.latest-funding-rounds-item a > div > h5 {
+  color: #000;
+  opacity: 0.5;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-funding-rounds-item img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 10px;
+}
+
+.industry-company {
+  width: 100%;
+  background: #fffaf8;
+}
+
+.industry-company div {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 100%;
+}
+
+.industry-company a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.industry-company a > span {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.industry-company span {
+  margin-top: 3px;
+  padding-right: 10px;
+}
+
+.industry-company span svg {
+  width: 16px;
+  height: 16px;
+}
+
+.industry-company-funding {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  padding-top: 10px;
+}
+
+.industry-company-funding a,
+.industry-company-funding a span {
+  display: inline;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.industry-company-funding a {
+  font-weight: 200;
+  color: #555;
+  line-height: 1.3rem;
+}
+
+.industry-company-funding a span {
+  color: #aaa;
+}
+
+@media screen and (max-width: 760px) {
+  #latest-funding-rounds {
+    width: 100%;
+    max-width: 98vw;
+
+    --itemWidth: 100%;
+
+    padding: 0 20px;
+  }
+
+  #latest-funding-heading {
+    max-width: 100vw;
+    margin: 0;
+    display: block;
+  }
+
+  #latest-funding-heading h2 {
+    font-size: 1.5rem;
+  }
+
+  #latest-funding-heading div a {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  #latest-funding-heading div a:last-child {
+    margin-bottom: 15px;
+  }
+
+  .dash-menu::after {
+    content: "";
+  }
+
+  .funding-wrap {
+    margin-right: 0;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100vw;
+  }
+
+  .latest-funding-rounds-item {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 762px) and (max-width: 1024px) {
+  .funding-wrap {
+    flex-wrap: wrap;
+  }
+
+  .latest-funding-rounds-item {
+    --itemWidth: 100%;
+
+    flex-basis: 32%;
+  }
+
+  .latest-funding-rounds-item:nth-child(4) {
+    display: none;
+  }
+}

@@ -1,0 +1,132 @@
+footer {
+  background: #131313;
+  padding-top: 42px;
+  height: 160px;
+}
+
+.footer-social-links ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+
+.footer-social-links ul li {
+  display: inline;
+  margin: 0 8px;
+}
+
+.footer-social-links ul li a {
+  background: #333;
+  border-radius: 50%;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-social-links ul li a span svg {
+  position: relative;
+  top: 3px;
+}
+
+.footer-page-links {
+  padding-bottom: 28px;
+}
+
+.footer-page-links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-page-links ul li {
+  margin: 0 6px;
+}
+
+.footer-page-links ul li a {
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.footer-legal {
+  padding: 3em 0;
+  background: #000;
+}
+
+.footer-legal .wrapper {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.footer-legal span {
+  color: #aaa;
+  font-size: 0.75rem;
+}
+
+.footer-legal span strong {
+  color: #f42;
+}
+
+.footer-legal .footer-legal-logoTNW svg {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+}
+
+.footer-legal .footer-logostackPath svg {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+@media screen and (max-width: 760px) {
+  footer .footer-social-links ul li:nth-child(6) {
+    display: none;
+  }
+
+  .footer-social-links ul li {
+    display: inline;
+    margin: 0 4px;
+  }
+
+  footer .footer-page-links {
+    max-width: 85vw;
+    padding-top: 20px;
+    line-height: 1.5rem;
+  }
+
+  footer .footer-page-links ul li:nth-child(3) {
+    display: none;
+  }
+
+  footer .footer-page-links ul {
+    flex-wrap: wrap;
+  }
+
+  footer .footer-legal {
+    padding: 20px 0;
+  }
+
+  footer .footer-legal .wrapper {
+    max-width: 85vw;
+    margin: 0 auto;
+    line-height: 1.5rem;
+  }
+
+  footer .footer-legal .wrapper span {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 761px) {
+  footer {
+    width: 74.5rem;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+  }
+}
