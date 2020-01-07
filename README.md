@@ -2,6 +2,8 @@
 
 > This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
+[Original Page](https://thenextweb.com/)
+
 ![screenshot](./app_screenshot.png)
 
 The project uses flex and media queries to gracefully degrade their site as the window size is reduced.
