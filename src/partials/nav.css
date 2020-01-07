@@ -14,8 +14,7 @@ nav {
   left: 0;
   z-index: 6;
   background-color: rgb(255, 255, 255);
-
-  transform: translateY(-32px);
+/*   transform: translateY(-32px); */
 }
 
 #nav-sticky .nav-logo {

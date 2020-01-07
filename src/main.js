@@ -8,8 +8,8 @@
       // Nav Bar Sticky On Scroll
       window.addEventListener("scroll", () => {
         if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
+          document.body.scrollTop > 2 ||
+          document.documentElement.scrollTop > 2
         ) {
           nav.id = "nav-sticky";
         } else nav.id = "";
@@ -18,4 +18,5 @@
       nav.id = "nav-sticky";
     }
   }
+  main();
 })();
