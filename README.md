@@ -1,16 +1,16 @@
-# Project Name
+# Building with Responsive Design
 
-> One paragraph statement about the project.
+> This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+The project uses flex and media queries to gracefully degrade their site as the window size is reduced.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
+- JS
 
 ## Live Demo
 
