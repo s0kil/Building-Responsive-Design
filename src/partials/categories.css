@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   margin: 30px auto 0 auto;
   max-width: 74rem;
-  /* justify-content: space-evenly; */
 }
 
 #categories .category-item {
@@ -32,10 +31,6 @@
 #categories span svg {
   width: 16px;
   height: 16px;
-}
-
-.category-item-list-popular {
-  position: relative;
 }
 
 .category-item-list-popular article {
@@ -107,7 +102,7 @@
   border-bottom: 1px solid rgba(85, 85, 85, 0.1);
 }
 
-.category-item-list-rest:before {
+.category-item-list-rest::before {
   content: "";
   background-color: #f42;
   border-radius: 50%;
@@ -123,6 +118,7 @@
   padding-top: 80%;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 @media screen and (min-width: 760px) and (max-width: 1024px) {
@@ -135,6 +131,7 @@
 @media screen and (min-width: 1024px) {
   .category-item {
     flex: 1;
+
     /* Subtract item from (item + container margin) */
     flex-basis: calc(33% - 21px);
     flex-grow: 0;

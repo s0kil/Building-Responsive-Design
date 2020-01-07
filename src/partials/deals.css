@@ -73,7 +73,6 @@
   display: block;
   height: 80px;
   overflow: hidden;
-
   right: 0;
   top: 0;
   width: 80px;
@@ -135,17 +134,21 @@
   #deals header {
     padding: 0 5px;
   }
+
   .deals-story-group {
     flex-direction: column;
     flex-wrap: nowrap;
     max-width: 95vw;
     margin: 0 auto;
   }
+
   .deals-story {
     display: block;
   }
+
   #deals ul li {
     --width: 75px;
+
     display: inline-block;
     max-height: 95px;
   }
@@ -168,6 +171,7 @@
     font-weight: 500;
     margin-left: 90px;
   }
+
   .story-deal-price {
     display: inline;
     margin-left: 15px;

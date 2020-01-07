@@ -3,5 +3,9 @@
   "description": "The Next Web Clone",
   "dependencies": {
     "modern-normalize": "^0.6.0"
+  },
+  "devDependencies": {
+    "stylelint": "^12.0.1",
+    "stylelint-config-recommended": "^3.0.0"
   }
 }

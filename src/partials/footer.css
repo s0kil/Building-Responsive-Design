@@ -18,7 +18,6 @@ footer {
 .footer-social-links ul li a {
   background: #333;
   border-radius: 50%;
-  /*   display: block; */
   height: 40px;
   padding: 12px;
   text-align: center;
@@ -107,9 +106,11 @@ footer {
   footer .footer-page-links ul {
     flex-wrap: wrap;
   }
+
   footer .footer-legal {
     padding: 20px 0;
   }
+
   footer .footer-legal .wrapper {
     max-width: 85vw;
     margin: 0 auto;

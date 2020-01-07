@@ -13,7 +13,8 @@
 
 .main-article-img {
   height: 100%;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       170deg,
       rgba(255, 68, 34, 0.8) 40%,
       rgba(0, 0, 0, 0.73)
@@ -112,7 +113,8 @@
   }
 
   .main-article-img {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         to bottom,
         rgba(245, 246, 252, 0.2),
         rgba(0, 0, 0, 0.73)
@@ -139,7 +141,8 @@ Side Articles
 
 .side-article-img-1 {
   height: 100%;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.2),
       rgba(0, 0, 0, 0.73)
@@ -153,7 +156,8 @@ Side Articles
 
 .side-article-img-2 {
   height: 100%;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.2),
       rgba(0, 0, 0, 0.73)

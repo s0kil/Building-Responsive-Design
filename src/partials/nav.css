@@ -14,7 +14,6 @@ nav {
   left: 0;
   z-index: 6;
   background-color: rgb(255, 255, 255);
-/*   transform: translateY(-32px); */
 }
 
 #nav-sticky .nav-logo {
@@ -27,10 +26,8 @@ nav {
 
 .nav-popout {
   display: none;
-
   background: rgba(0, 0, 0, 0.95);
   position: absolute;
-  /* top: 80px; */
   left: 0;
   width: 106px;
   z-index: 10;
@@ -61,7 +58,6 @@ nav {
   width: 106px;
   display: block;
   padding: 16px 22px;
-
   background: #f42;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
@@ -70,7 +66,6 @@ nav {
   background-image: url("../img/home.gif");
   background-size: cover;
   background-position: 50%;
-  /* z-index: 10; */
 }
 
 .nav-logo svg {
@@ -81,6 +76,7 @@ nav {
 nav .main-navigation {
   --height: 32px;
   --bgColor: #131313;
+
   height: var(--height);
   display: flex;
   justify-content: space-between;
@@ -132,8 +128,6 @@ nav .main-navigation .dropdown-menu {
   transform: translateY(calc(var(--height) / 2));
   transition: transform 200ms ease-in 0s;
 }
-
-/* .nav-icons .icon-search-dark  */
 
 .nav-items {
   display: flex;
@@ -204,6 +198,7 @@ nav .main-navigation .dropdown-menu {
     height: 48px;
     max-width: 74rem;
   }
+
   nav .main-navigation {
     display: none;
   }
