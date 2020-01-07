@@ -6,18 +6,11 @@ nav .main-navigation .nav-company-links {
 nav {
   height: 80px;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
-}
-
-#nav-sticky {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 6;
-  background-color: rgb(255, 255, 255);
-}
-
-#nav-sticky .nav-logo {
-  display: block;
+  z-index: 20;
+  background: #fff;
 }
 
 .nav-logo:hover .nav-popout {
@@ -216,6 +209,56 @@ nav .main-navigation .dropdown-menu {
   }
 
   .nav-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #introduction {
+    margin-top: 35px !important;
+  }
+
+  .nav-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(48px + 32px);
+  }
+
+  nav .nav-items,
+  nav .main-navigation {
+    position: absolute;
+    right: 0;
+    width: calc(100vw - (48px * 2));
+  }
+
+  nav .main-navigation {
     display: block;
+  }
+
+  .nav-logo,
+  .nav-items,
+  .main-navigation {
+    z-index: 100;
+  }
+
+  .main-navigation {
+    top: 0;
+  }
+
+  .nav-items {
+    right: 0;
+    top: 32px;
+    background: #fff;
+  }
+
+  .nav-logo a {
+    padding: 0;
+    padding-left: 15px;
+  }
+
+  .nav-logo a,
+  .nav-logo svg {
+    height: calc(48px + 32px);
   }
 }

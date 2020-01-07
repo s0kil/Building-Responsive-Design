@@ -1,8 +1,8 @@
 {
   "name": "building-responsive-design",
   "description": "The Next Web Clone",
-  "dependencies": {
-    "modern-normalize": "^0.6.0"
+  "scripts": {
+    "lint": "stylelint . --fix"
   },
   "devDependencies": {
     "stylelint": "^12.0.1",
