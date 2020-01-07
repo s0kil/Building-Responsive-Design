@@ -31,9 +31,10 @@ nav {
 
   background: rgba(0, 0, 0, 0.95);
   position: absolute;
-  top: 80px;
+  /* top: 80px; */
   left: 0;
   width: 106px;
+  z-index: 10;
 }
 
 .nav-popout li {
@@ -67,9 +68,10 @@ nav {
 }
 
 .nav-logo > a:hover {
-  background-image: url("./img/home.gif");
+  background-image: url("../img/home.gif");
   background-size: cover;
   background-position: 50%;
+  /* z-index: 10; */
 }
 
 .nav-logo svg {
@@ -176,7 +178,7 @@ nav .main-navigation .dropdown-menu {
   padding: 16px;
 }
 
-@media screen and (max-device-width: 760px) {
+@media screen and (max-width: 760px) {
   nav {
     height: 48px;
   }
@@ -192,35 +194,33 @@ nav .main-navigation .dropdown-menu {
   }
 }
 
-@media screen and (max-device-width: 760px) {
+@media screen and (max-width: 760px) {
   .nav-logo {
     display: block;
   }
 }
 
-@media screen and (min-device-width: 761px) and (max-device-width: 1023px) {
-  
+@media screen and (min-width: 761px) and (max-width: 1023px) {
   nav {
     height: 48px;
-    width: 74rem;
+    max-width: 74rem;
   }
   nav .main-navigation {
     display: none;
-  } 
-  
+  }
+
   .nav-logo {
     display: block;
   }
 }
 
-
-@media screen and (min-device-width: 1024px) {
+@media screen and (min-width: 1024px) {
   nav {
     height: 80px;
-    width: 74rem;
+    min-width: 100%;
     margin: 0 auto;
   }
-  
+
   .nav-logo {
     display: block;
   }

@@ -17,10 +17,6 @@ body {
   font-size: 14px;
 }
 
-.width-full {
-  max-width: 100vw;
-}
-
 ul {
   margin: 0;
   padding: 0;

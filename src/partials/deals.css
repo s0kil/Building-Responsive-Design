@@ -1,10 +1,10 @@
 #deals {
-  width: 74rem;
+  max-width: 74rem;
   margin: 30px auto 0 auto;
   padding-bottom: 100px;
 }
 
-@media screen and (max-device-width: 760px) {
+@media screen and (max-width: 760px) {
   #deals {
     width: 100%;
   }
@@ -210,7 +210,7 @@
   display: none;
 }
 
-@media screen and (max-device-width: 760px) {
+@media screen and (max-width: 760px) {
   #deals header {
     padding: 0 5px;
   }
@@ -262,7 +262,7 @@
 }
 
 
-@media screen and (min-device-width: 761px) and (max-device-width: 1023px) {
+@media screen and (min-width: 761px) and (max-width: 1023px) {
 
   .deals-story-group {
     justify-content: end;
