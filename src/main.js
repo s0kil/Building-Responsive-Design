@@ -1,6 +1,6 @@
 (() => {
   // Wait for HTML document to been completely loaded and parsed, then call main function
-  window.addEventListener("load", main);
+  /*   window.addEventListener("load", main); */
 
   function main() {
     // Load Category List Images
@@ -14,13 +14,15 @@
       }
     });
 
+
+
     let nav = document.querySelector("nav");
     if (screen.width > 320) {
       // Nav Bar Sticky On Scroll
       window.addEventListener("scroll", () => {
         if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
+          document.body.scrollTop > 2 ||
+          document.documentElement.scrollTop > 2
         ) {
           nav.id = "nav-sticky";
         } else nav.id = "";
@@ -29,4 +31,5 @@
       nav.id = "nav-sticky";
     }
   }
+  main();
 })();
