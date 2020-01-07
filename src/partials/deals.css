@@ -55,20 +55,18 @@
   width: 100%;
 }
 
-.deals-story .story-image-1 {
-  background-image: url(../img/story-deal-1.jpg);
+.deals-story .story-image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 100%;
   margin-bottom: 8px;
   height: 0;
   width: 100%;
-  padding-top: 74.5%; /* check with Daniel */
+  padding-top: 74.5%;
 }
 
 .story-discount {
   position: absolute;
-
   background-image: url(../img/deals-ribbon.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -129,83 +127,6 @@
   text-decoration: underline;
 }
 
-.deals-story .story-image-2 {
-  background-image: url(../img/story-deal-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 100%;
-  margin-bottom: 8px;
-  height: 0;
-  width: 100%;
-  padding-top: 74.5%; /* check with Daniel */
-}
-
-.deals-story .story-image-3 {
-  background-image: url(../img/story-deal-3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 100%;
-  margin-bottom: 8px;
-  height: 0;
-  width: 100%;
-  padding-top: 74.5%; /* check with Daniel */
-}
-
-.deals-story .story-image-4 {
-  background-image: url(../img/story-deal-4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 100%;
-  margin-bottom: 8px;
-  height: 0;
-  width: 100%;
-  padding-top: 74.5%; /* check with Daniel */
-}
-
-.deals-story .story-image-5 {
-  background-image: url(../img/story-deal-5.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 100%;
-  margin-bottom: 8px;
-  height: 0;
-  width: 100%;
-  padding-top: 74.5%; /* check with Daniel */
-}
-
-.deals-story .story-image-6 {
-  background-image: url(../img/story-deal-6.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 100%;
-  margin-bottom: 8px;
-  height: 0;
-  width: 100%;
-  padding-top: 74.5%; /* check with Daniel */
-}
-
-.deals-story .story-image-7 {
-  background-image: url(../img/story-deal-7.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 100%;
-  margin-bottom: 8px;
-  height: 0;
-  width: 100%;
-  padding-top: 74.5%; /* check with Daniel */
-}
-
-.deals-story .story-image-8 {
-  background-image: url(../img/story-deal-8.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 100%;
-  margin-bottom: 8px;
-  height: 0;
-  width: 100%;
-  padding-top: 74.5%; /* check with Daniel */
-}
-
 .story-discount-hidden {
   display: none;
 }
@@ -229,14 +150,7 @@
     max-height: 95px;
   }
 
-  #deals .story-image-1,
-  #deals .story-image-2,
-  #deals .story-image-3,
-  #deals .story-image-4,
-  #deals .story-image-5,
-  #deals .story-image-6,
-  #deals .story-image-7,
-  #deals .story-image-8 {
+  #deals .story-image {
     width: var(--width);
     height: var(--width);
     float: left;
@@ -261,15 +175,13 @@
   }
 }
 
-
 @media screen and (min-width: 761px) and (max-width: 1023px) {
-
   .deals-story-group {
     justify-content: end;
     padding: 0 10px;
   }
-  
+
   .deals-story-group li {
-    flex-basis: 33.0%;
-   }
+    flex-basis: 33%;
+  }
 }
